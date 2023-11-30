@@ -1,0 +1,76 @@
+:root
+    --padding: max(20px, 4vmin)
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap")
+@import "./components/header"
+@import "./components/nav"
+@import "./components/home_about_me"
+
+#page
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    overflow: hidden
+
+#background
+    position: fixed
+    z-index: 1
+    left: var(--padding)
+    right: var(--padding)
+    top: var(--padding)
+    bottom: var(--padding)
+    pointer-events: none
+    overflow: hidden
+
+html, body
+    padding: 0
+    margin: 0
+    height: 100%
+    width: 100%
+
+h1,h2,h3,h4,h5,h6,p,ul,li
+    font-family: Nunito
+    margin: 0
+    padding: 0
+
+////////////////////////// Frame //////////////////////////////
+.frame
+    position: fixed
+    z-index: 10
+    left: var(--padding)
+    right: var(--padding)
+    top: var(--padding)
+    bottom: var(--padding)
+    mix-blend-mode: difference
+    pointer-events: none
+
+.frame_line
+    position: absolute
+    background-color: #000000
+    opacity: .5
+
+.frame_line-left
+    left: 0
+    top: 0
+    width: 1px
+    height: 100%
+
+.frame_line-right
+    right: 0
+    top: 0
+    width: 1px
+    height: 100%
+
+.frame_line-top
+    left: 0
+    top: 0
+    height: 1px
+    width: 100%
+
+.frame_line-bottom
+    left: 0
+    bottom: 0
+    height: 1px
+    width: 100%
