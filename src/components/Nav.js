@@ -1,16 +1,19 @@
 import React from "react";
+import Link from "next/link";
 
 const Nav = () => {
   return (
-    <div className="nav" id="nav">
+    <nav className="nav" id="nav">
       <ul>
         <li>Home</li>
-        <li>About Me</li>
+        <Link href="/About">
+          <li>About Me</li>
+        </Link>
         <li>Project</li>
         <li>Contact</li>
         <li>Credits</li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
