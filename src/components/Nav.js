@@ -5,13 +5,18 @@ const Nav = () => {
   return (
     <nav className="nav" id="nav">
       <ul>
-        <li>Home</li>
+        <Link href="/">
+          <li>Home</li>
+        </Link>
         <Link href="/About">
           <li>About Me</li>
         </Link>
-        <li>Project</li>
-        <li>Contact</li>
-        <li>Credits</li>
+        <Link href="/Project">
+          <li>Project</li>
+        </Link>
+        <Link href="/Contact">
+          <li>Contact</li>
+        </Link>
       </ul>
     </nav>
   );
