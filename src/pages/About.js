@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Nav from "@/components/Nav";
 import React from "react";
 import Theme from "@/components/Theme";
+import AboutMe from "@/components/AboutMe";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
         <Header />
         <Nav />
       </header>
+      <AboutMe />
     </div>
   );
 };

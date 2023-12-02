@@ -1,47 +1,76 @@
 {
     "dataProject": [
         {
-            "projectName": "Doc",
-            "projectSkills": [{
-            }],
-            "projectPicture": "../public/assets/77events.webp",
-            "projectType": ""
+            "projectTitle": "Booki",
+            "projectSkills": [
+                "HTML","CSS"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/booki.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "OhMyFood",
+            "projectSkills": [
+                "HTML","SASS"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/ohmyfood.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "Nina Carducci | Portfolio",
+            "projectSkills": [
+                "HTML","SASS","JAVASCRIPT"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/ninacarducci.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "Menu Maker",
+            "projectSkills": [
+                "PROJECT MANAGEMENT"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/menumaker.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "Kasa",
+            "projectSkills": [
+                "REACT","SASS"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/Kasa.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "Sophie Bluel | Portfolio",
+            "projectSkills": [
+                "OPTIMIZATION","SEO","ACCESSIBILITY"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/sophiebluel.webp",
+            "projectType": "School Project",
+            "date": "2023"
         },
         {
-            "projectName": "Doc",
-            "projectSkills": [{}],
-            "projectPicture": "",
-            "projectType": ""
+            "projectTitle": "77 Events",
+            "projectSkills": [
+                "DEBUGGING"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/77events.webp",
+            "projectType": "School Project",
+            "date": "2023"
+        },
+        {
+            "projectTitle": "ArgentBank",
+            "projectSkills": [
+                "REACT","REDUX","SASS"
+            ],
+            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/argentbank.webp",
+            "projectType": "School Project",
+            "date": "2023"
         }
     ]
  }
