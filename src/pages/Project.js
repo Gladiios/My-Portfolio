@@ -2,6 +2,7 @@ import "../styles/global.sass";
 import Frame from "@/components/Frame";
 import Header from "@/components/Header";
 import Nav from "@/components/Nav";
+import ProjectComponents from "@/components/ProjectComponents";
 import Theme from "@/components/Theme";
 import React from "react";
 
@@ -15,6 +16,7 @@ const Project = () => {
         <Header />
         <Nav />
       </header>
+      <ProjectComponents />
     </div>
   );
 };
