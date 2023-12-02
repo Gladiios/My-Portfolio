@@ -5,7 +5,7 @@
             "projectSkills": [
                 "HTML","CSS"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/booki.webp",
+            "projectPicture": "/assets/booki.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -14,7 +14,7 @@
             "projectSkills": [
                 "HTML","SASS"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/ohmyfood.webp",
+            "projectPicture": "/assets/ohmyfood.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -23,7 +23,7 @@
             "projectSkills": [
                 "HTML","SASS","JAVASCRIPT"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/ninacarducci.webp",
+            "projectPicture": "/assets/ninacarducci.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -32,7 +32,7 @@
             "projectSkills": [
                 "PROJECT MANAGEMENT"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/menumaker.webp",
+            "projectPicture": "/assets/menumaker.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -41,7 +41,7 @@
             "projectSkills": [
                 "REACT","SASS"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/Kasa.webp",
+            "projectPicture": "/assets/Kasa.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -50,7 +50,7 @@
             "projectSkills": [
                 "OPTIMIZATION","SEO","ACCESSIBILITY"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/sophiebluel.webp",
+            "projectPicture": "/assets/sophiebluel.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -59,7 +59,7 @@
             "projectSkills": [
                 "DEBUGGING"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/77events.webp",
+            "projectPicture": "/assets/77events.webp",
             "projectType": "School Project",
             "date": "2023"
         },
@@ -68,7 +68,7 @@
             "projectSkills": [
                 "REACT","REDUX","SASS"
             ],
-            "projectPicture": "https://github.com/Gladiios/My-Portfolio/blob/main/public/assets/argentbank.webp",
+            "projectPicture": "/assets/argentbank.webp",
             "projectType": "School Project",
             "date": "2023"
         }

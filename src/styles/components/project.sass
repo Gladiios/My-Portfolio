@@ -3,6 +3,10 @@
     right: calc(var(--padding)*2)
     top: calc( var(--padding) *2 )
 
+.project-display a
+    text-decoration: none
+    color: black
+
 .project-div
     display: flex
     flex-direction: column
@@ -18,3 +22,24 @@
 
 .project-space
     margin: 0 5px 0 5px
+
+.project-div
+    position: relative
+    overflow: hidden
+
+.project-image
+    display: block
+    position: fixed
+    top: 30%
+    right: 30%
+    width: 40%
+    height: auto
+    z-index: 10
+    border: 1px solid black
+    border-radius: 20px
+    opacity: 0
+    transform: scale(0.95)
+    transition: opacity 0.5s ease
+
+.project-div:hover .project-image
+    opacity: 1
