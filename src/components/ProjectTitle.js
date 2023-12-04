@@ -1,23 +1,20 @@
-import Link from "next/link";
 import React from "react";
 
-const ProjectTitle = ({ project }) => {
+const ProjectTitle = ({ project, displayModal }) => {
   return (
-    // <Link href={`/project/${project.}`}>
-    <div className="project-div">
-      <h3 className="project-title">{project.projectTitle}</h3>
+    <div className="project-div" onClick={displayModal}>
+      <h3 className="project-title">{project.title}</h3>
       <div>
-        <p className="project-type">{project.projectType} </p>
+        <p className="project-type">{project.type} </p>
         <p className="project-space">/</p>
         <p className="project-date"> {project.date}</p>
       </div>
       <img
-        src={project.projectPicture}
-        alt={project.projectTitle}
+        src={project.picture}
+        alt={project.title + " picture"}
         className="project-image"
       />
     </div>
-    // </Link>
   );
 };
 

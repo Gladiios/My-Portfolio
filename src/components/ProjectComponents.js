@@ -4,11 +4,15 @@ import ProjectTitle from "./ProjectTitle";
 
 const { dataProject } = data;
 
-const ProjectComponents = () => {
+const ProjectComponents = ({ displayModal }) => {
   return (
     <div className="project-display">
       {dataProject.map((project) => (
-        <ProjectTitle key={project.projectTitle} project={project} />
+        <ProjectTitle
+          key={project.title}
+          project={project}
+          displayModal={() => displayModal(project)}
+        />
       ))}
     </div>
   );

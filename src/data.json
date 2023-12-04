@@ -1,76 +1,84 @@
 {
     "dataProject": [
         {
-            "projectTitle": "Booki",
-            "projectSkills": [
+            "title": "Booki",
+            "skills": [
                 "HTML","CSS"
             ],
-            "projectPicture": "/assets/booki.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/booki.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "booki"
         },
         {
-            "projectTitle": "OhMyFood",
-            "projectSkills": [
+            "title": "OhMyFood",
+            "skills": [
                 "HTML","SASS"
             ],
-            "projectPicture": "/assets/ohmyfood.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/ohmyfood.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "ohmyfood"
         },
         {
-            "projectTitle": "Nina Carducci | Portfolio",
-            "projectSkills": [
+            "title": "Nina Carducci | Portfolio",
+            "skills": [
                 "HTML","SASS","JAVASCRIPT"
             ],
-            "projectPicture": "/assets/ninacarducci.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/ninacarducci.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "nina-carducci"
         },
         {
-            "projectTitle": "Menu Maker",
-            "projectSkills": [
+            "title": "Menu Maker",
+            "skills": [
                 "PROJECT MANAGEMENT"
             ],
-            "projectPicture": "/assets/menumaker.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/menumaker.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "menu-maker"
         },
         {
-            "projectTitle": "Kasa",
-            "projectSkills": [
+            "title": "Kasa",
+            "skills": [
                 "REACT","SASS"
             ],
-            "projectPicture": "/assets/Kasa.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/Kasa.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "kasa"
         },
         {
-            "projectTitle": "Sophie Bluel | Portfolio",
-            "projectSkills": [
+            "title": "Sophie Bluel | Portfolio",
+            "skills": [
                 "OPTIMIZATION","SEO","ACCESSIBILITY"
             ],
-            "projectPicture": "/assets/sophiebluel.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/sophiebluel.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "sophie-bluel"
         },
         {
-            "projectTitle": "77 Events",
-            "projectSkills": [
+            "title": "77 Events",
+            "skills": [
                 "DEBUGGING"
             ],
-            "projectPicture": "/assets/77events.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/77events.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "77events"
         },
         {
-            "projectTitle": "ArgentBank",
-            "projectSkills": [
+            "title": "ArgentBank",
+            "skills": [
                 "REACT","REDUX","SASS"
             ],
-            "projectPicture": "/assets/argentbank.webp",
-            "projectType": "School Project",
-            "date": "2023"
+            "picture": "/assets/argentbank.webp",
+            "type": "School Project",
+            "date": "2023",
+            "id": "argentbank"
         }
     ]
  }
