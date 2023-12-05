@@ -1,3 +1,4 @@
+import Providers from "@/app/Providers";
 import "../styles/global.sass";
 import Frame from "@/components/Frame";
 import Header from "@/components/Header";
@@ -21,17 +22,21 @@ const Project = () => {
   };
 
   return (
-    <div id="page">
-      <div id="background"></div>
-      <Theme />
-      <Frame />
-      <header>
-        <Header />
-        <Nav />
-      </header>
-      <ProjectComponents displayModal={openModal} />
-      {isModalOpen && <Modal project={selectedProject} onClose={closeModal} />}
-    </div>
+    <Providers>
+      <div id="page">
+        <div id="background"></div>
+        <Theme />
+        <Frame />
+        <header>
+          <Header />
+          <Nav />
+        </header>
+        <ProjectComponents displayModal={openModal} />
+        {isModalOpen && (
+          <Modal project={selectedProject} onClose={closeModal} />
+        )}
+      </div>
+    </Providers>
   );
 };
 

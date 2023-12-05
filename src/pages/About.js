@@ -5,19 +5,22 @@ import Nav from "@/components/Nav";
 import React from "react";
 import Theme from "@/components/Theme";
 import AboutMe from "@/components/AboutMe";
+import Providers from "@/app/Providers";
 
 const About = () => {
   return (
-    <div id="page">
-      <div id="background"></div>
-      <Theme />
-      <Frame />
-      <header>
-        <Header />
-        <Nav />
-      </header>
-      <AboutMe />
-    </div>
+    <Providers>
+      <div id="page">
+        <div id="background"></div>
+        <Theme />
+        <Frame />
+        <header>
+          <Header />
+          <Nav />
+        </header>
+        <AboutMe />
+      </div>
+    </Providers>
   );
 };
 

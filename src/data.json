@@ -6,6 +6,7 @@
                 "HTML","CSS"
             ],
             "picture": "/assets/booki.webp",
+            "banner": "/assets/banner/booki.png",
             "type": "School Project",
             "date": "2023",
             "id": "booki"
@@ -16,6 +17,7 @@
                 "HTML","SASS"
             ],
             "picture": "/assets/ohmyfood.webp",
+            "banner": "/assets/banner/ohmyfood.png",
             "type": "School Project",
             "date": "2023",
             "id": "ohmyfood"
@@ -26,6 +28,7 @@
                 "HTML","SASS","JAVASCRIPT"
             ],
             "picture": "/assets/ninacarducci.webp",
+            "banner": "/assets/banner/ninacarducci.jpg",
             "type": "School Project",
             "date": "2023",
             "id": "nina-carducci"
@@ -36,6 +39,7 @@
                 "PROJECT MANAGEMENT"
             ],
             "picture": "/assets/menumaker.webp",
+            "banner": "/assets/banner/menumaker.png",
             "type": "School Project",
             "date": "2023",
             "id": "menu-maker"
@@ -46,6 +50,7 @@
                 "REACT","SASS"
             ],
             "picture": "/assets/Kasa.webp",
+            "banner": "/assets/banner/kasa.png",
             "type": "School Project",
             "date": "2023",
             "id": "kasa"
@@ -56,6 +61,7 @@
                 "OPTIMIZATION","SEO","ACCESSIBILITY"
             ],
             "picture": "/assets/sophiebluel.webp",
+            "banner": "/assets/banner/sophiebluel.png",
             "type": "School Project",
             "date": "2023",
             "id": "sophie-bluel"
@@ -66,6 +72,7 @@
                 "DEBUGGING"
             ],
             "picture": "/assets/77events.webp",
+            "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
             "id": "77events"
@@ -76,6 +83,7 @@
                 "REACT","REDUX","SASS"
             ],
             "picture": "/assets/argentbank.webp",
+            "banner": "/assets/banner/argentbank.png",
             "type": "School Project",
             "date": "2023",
             "id": "argentbank"

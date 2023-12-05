@@ -1,17 +1,26 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 import "../styles/global.sass";
+import  {FiMoon} from "react-icons/fi"
+import {BsSun} from "react-icons/bs"
 
 const Theme = () => {
+  const [mounted, setMounted] = useState(false)
+  const { theme, setTheme } = useTheme()
+
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
   return (
     <div className="theme" id="theme">
-      <div className="theme-light">
-        <input type="checkbox" id="theme-light"></input>
-        <label htmlFor="theme-light">Light</label>
-      </div>
-      <div className="theme-dark">
-        <input type="checkbox" id="theme-dark"></input>
-        <label htmlFor="theme-dark">Dark</label>
-      </div>
+        {theme === "dark" ? (<BsSun size={25} cursor="pointer" onClick={() => setTheme("light")}/>) :  <FiMoon size={25} cursor="pointer" onClick={() => setTheme("dark")}/>  }    
     </div>
   );
 };

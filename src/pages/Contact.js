@@ -1,3 +1,4 @@
+import Providers from "@/app/Providers";
 import "../styles/global.sass";
 import Frame from "@/components/Frame";
 import Header from "@/components/Header";
@@ -7,15 +8,17 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="page">
-      <div id="background"></div>
-      <Theme />
-      <Frame />
-      <header>
-        <Header />
-        <Nav />
-      </header>
-    </div>
+    <Providers>
+      <div id="page">
+        <div id="background"></div>
+        <Theme />
+        <Frame />
+        <header>
+          <Header />
+          <Nav />
+        </header>
+      </div>
+    </Providers>
   );
 };
 

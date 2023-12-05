@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ProjectTitle = ({ project, displayModal }) => {
@@ -9,10 +10,13 @@ const ProjectTitle = ({ project, displayModal }) => {
         <p className="project-space">/</p>
         <p className="project-date"> {project.date}</p>
       </div>
-      <img
+      <Image
         src={project.picture}
         alt={project.title + " picture"}
         className="project-image"
+        width={500}
+        height={200}
+        quality={100}
       />
     </div>
   );

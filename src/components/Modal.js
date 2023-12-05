@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-const Modal = ({ onClose }) => {
+const Modal = ({ project, onClose }) => {
   return (
     <div className="layout" onClick={onClose}>
       <div className="modal-container">
@@ -9,7 +10,16 @@ const Modal = ({ onClose }) => {
             X
           </button>
         </div>
-        <div className="project-info"></div>
+        <div className="project-info">
+          <Image
+            src={project.banner}
+            height={100}
+            width={300}
+            quality={100}
+            alt={project.title + " banner"}
+            className="modal-banner"
+          />
+        </div>
       </div>
     </div>
   );
