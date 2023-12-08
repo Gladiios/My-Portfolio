@@ -1,19 +1,27 @@
-.theme input
-    margin: 0
-    margin-right: 5px
-
 .theme
     display: flex
+    gap: 5px
     position: fixed
-    top: 14px
-    left: 2.5%
+    top: 40%
+    left: -1%
+    rotate: -90deg
 
-.theme label
-    font-weight: 900
+.theme div
+    display: flex
 
-.theme-checkbox-dark
-    margin-left: 10px
+.checkbox-custom
+    appearance: none
+    -webkit-appearance: none
+    -moz-appearance: none
+    width: 15px
+    height: 15px
+    border: 1px solid #dcdcdc
+    background-color: transparent
 
-.theme-color-dark
+/* Style lorsque le thème sombre est actif et la checkbox du thème sombre est cochée */
+.theme input[type="checkbox"]#dark-theme:checked
+    background-color: white
 
-.theme-color-light
+/* Style lorsque le thème clair est actif et la checkbox du thème clair est cochée */
+.theme input[type="checkbox"]#light-theme:checked
+    background-color: #121212

@@ -3,90 +3,124 @@
         {
             "title": "Booki",
             "skills": [
-                "HTML","CSS"
+                "HTML5","CSS3","Figma","Responsive"
             ],
             "picture": "/assets/booki.webp",
             "banner": "/assets/banner/booki.png",
             "type": "School Project",
             "date": "2023",
-            "id": "booki"
+            "id": "booki",
+            "client": "A company who wants to develop a website for finding accomodations and activities.",
+            "presentation": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
+            "goal": "Using only HTML and CSS, the goal here was to be as close as possible to the figma model and to make the site responsive for tablet and mobile.",
+            "github": ""
         },
         {
             "title": "OhMyFood",
             "skills": [
-                "HTML","SASS"
+                "HTML5","SASS","Animation","Responsive"
             ],
             "picture": "/assets/ohmyfood.webp",
             "banner": "/assets/banner/ohmyfood.png",
             "type": "School Project",
             "date": "2023",
-            "id": "ohmyfood"
-        },
-        {
-            "title": "Nina Carducci | Portfolio",
-            "skills": [
-                "HTML","SASS","JAVASCRIPT"
-            ],
-            "picture": "/assets/ninacarducci.webp",
-            "banner": "/assets/banner/ninacarducci.jpg",
-            "type": "School Project",
-            "date": "2023",
-            "id": "nina-carducci"
-        },
-        {
-            "title": "Menu Maker",
-            "skills": [
-                "PROJECT MANAGEMENT"
-            ],
-            "picture": "/assets/menumaker.webp",
-            "banner": "/assets/banner/menumaker.png",
-            "type": "School Project",
-            "date": "2023",
-            "id": "menu-maker"
-        },
-        {
-            "title": "Kasa",
-            "skills": [
-                "REACT","SASS"
-            ],
-            "picture": "/assets/Kasa.webp",
-            "banner": "/assets/banner/kasa.png",
-            "type": "School Project",
-            "date": "2023",
-            "id": "kasa"
+            "id": "ohmyfood",
+            "client":"OhMyFood, a restoration startup.",
+            "presentation": "OhMyFood is a startup who want to develop a website wich list gastronomic restaurant menu.",
+            "goal": "The goal was to create the site in mobile first, using HTML and Sass, with some animation like a loading screen, heart filling with hover or click and a checkout validation moving the price of a menu item.",
+            "github": "https://github.com/Gladiios/oc-p4"
+
         },
         {
             "title": "Sophie Bluel | Portfolio",
             "skills": [
-                "OPTIMIZATION","SEO","ACCESSIBILITY"
+                "HTML5","SASS","Javascript","Node.js"
             ],
             "picture": "/assets/sophiebluel.webp",
             "banner": "/assets/banner/sophiebluel.png",
             "type": "School Project",
             "date": "2023",
-            "id": "sophie-bluel"
+            "id": "sophie-bluel",
+            "client":"Sophie Bluel, an interior designer ",
+            "presentation": "As a front-end developer for the ArchiWebos agency, i helped on the realization of the portfolio website.",
+            "goal": "Using an already created backend, I imported dynamically with javascript the project realized by the interior designer, with filters by category. I also created the login page using Json Web Tokens with a redirection on the landing page when the administrator is logged in succesfully. To finish, i implemented a modal on the landing page, allowing the admin to POST or DELETE a work.",
+            "github": "https://github.com/Gladiios/oc-p6"
+        },
+        {
+            "title": "Menu Maker",
+            "skills": [
+                "Project Management","Kanban","Agile Method","Technical Solutions"
+            ],
+            "picture": "/assets/menumaker.webp",
+            "banner": "/assets/banner/menumaker.png",
+            "type": "School Project",
+            "date": "2023",
+            "id": "menu-maker",
+            "client":"Qwenta",
+            "presentation": "As a front-end developer for the Webgencia agency, i've been given a different task from usual, lead, prepare and plan the site development project. ",
+            "goal": "I had to prepare 3 powerpoints for the client, one for the presentation of my monitoring tool, the other for the planning presentation containing the link to the chosen project management tool and the Kanban board, the last one was for the presentation of my technical solution. I also had to write a technical specification documents wich helped me to create the presentation of the technical solution.",
+            "github": ""
+        },
+        {
+            "title": "Kasa",
+            "skills": [
+                "React","Sass","Responsive","Figma"
+            ],
+            "picture": "/assets/Kasa.webp",
+            "banner": "/assets/banner/kasa.png",
+            "type": "School Project",
+            "date": "2023",
+            "id": "kasa",
+            "client":"Kasa, a leader in apartment rental ",
+            "presentation": "I've been recruited as a freelance front-end developer for their new web platform.",
+            "goal": "The goal here was to modernize the existing website using React with reusable components and routes using React Router. When clicking on an element in the gallery, a redirection to another page is carried out, the information linked to the clicked element is displayed on this page, I integrated here interactive components like a carousel to display the accomodation pictures or a collapse with CSS animation. It was also necessary for the application to be responsive.",
+            "github": "https://github.com/Gladiios/oc-p8"
+        },
+        {
+            "title": "Nina Carducci | Portfolio",
+            "skills": [
+                "Optimization","Seo","Wave","Accessibility","Lighthouse"
+            ],
+            "picture": "/assets/ninacarducci.webp",
+            "banner": "/assets/banner/ninacarducci.jpg",
+            "type": "School Project",
+            "date": "2023",
+            "id": "nina-carducci",
+            "client":"Nina Carducci",
+            "presentation": "Nina carducci is a portfolio website of a profesionnal photographer specialized in portrait and event photography",
+            "goal": "The goal of the project was to improve the site performance, reduce loading times and add local SEO. I optimized the images, to which i added lazyloading. I minified the existing javascript files, these modifications significantly increased the performance of the site. I reorganized the HTML structure and also added the meta tag for the social networks",
+            "github": "https://github.com/Gladiios/oc-p9"
+            
         },
         {
             "title": "77 Events",
             "skills": [
-                "DEBUGGING"
+                "Debugging"
             ],
             "picture": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
-            "id": "77events"
+            "id": "77events",
+            "client":"724 Events",
+            "presentation": "The agency wishes to publish the new version of its showcase site. This is a one-page site. The design has been validated, and a first freelance developer started the integration a few weeks ago. Unfortunately, this freelancer had to abandon the project for personal reasons. The site is functional, but some bugs hinder proper use by visitors. 724events therefore called on me to finalize the work.",
+            "goal": "Jean-Baptiste, the marketing director told me about the different bugs in a video meeting. The carousel wasn't working correctly, a white picture was displayed, to change the current slide,the radio button were not usable and the picture were supposed to be displayed from oldest to most recent. In the list of events, some do not display any dates and others do not display the correct ones, the filters weren't working either. Concerning the contact form, no confirmation message were displayed and to finish the picture in the footer was supposed to display the last event, with the date and the category.",
+            "github": "https://github.com/Gladiios/oc-p10"
         },
         {
             "title": "ArgentBank",
             "skills": [
-                "REACT","REDUX","SASS"
+                "React","Redux","Sass","MongoDB","Swagger Creation","Responsive"
             ],
             "picture": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",
             "type": "School Project",
             "date": "2023",
-            "id": "argentbank"
+            "id": "argentbank",
+            "client":"Argent Bank",
+            "presentation": "As a front-end developer in Argent Bank i had to create the user dashboard while using React and Redux to manage the state",
+            "goal": "With a model given to me, i had to recreate the static HTML in react. I first started by creating the landing page with reusable components for the “features” section. After that I created the login system, i also managed the logout. To finish, in the user profile page, i added a form who allow the user to change only his username. All of these user actions were managed with the Redux Store. For phase 2 of the project, I had to propose endpoints in the form of a swagger, each endpoint had to have: the HTTP method, the route, the description of what the endpoint corresponds to and the different responses with the corresponding response code",
+            "github": "https://github.com/Gladiios/oc-p11"
         }
     ]
  }

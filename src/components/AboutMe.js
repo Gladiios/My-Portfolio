@@ -12,19 +12,13 @@ const AboutMe = () => {
       <span>learn web development.</span>
       <br></br>
       <span>Currently i'm only able to do front-end development,but</span>
-      <span>but i intend to learn back-end development in a near future.</span>
+      <span>i intend to learn back-end development in a near future.</span>
       <br></br>
       <span>The Languages and Tools i'm familliar with :</span>
       <div className="logo-div">
         <Image
           src="/assets/logo/bash.svg"
           alt="logo bash"
-          width={30}
-          height={30}
-        ></Image>
-        <Image
-          src="/assets/logo/bootstrap.svg"
-          alt="logo bootstrap"
           width={30}
           height={30}
         ></Image>

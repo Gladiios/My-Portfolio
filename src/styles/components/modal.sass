@@ -1,5 +1,5 @@
 .layout
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: (var(--layout-bg))
     position: fixed
     width: 100%
     height: 100%
@@ -8,32 +8,63 @@
 .modal-container
     z-index: 99
     position: fixed
-    width: 30%
-    height: 90%
-    border: 1px solid black
+    width: 40%
+    height: auto
+    border: (var(--modal-border-color))
     border-radius: 20px
-    background-color: white
-    left: 35%
-    top: 5%
+    background-color: (var(--modal-background-color))
+    left: 33%
+    top: 10%
 
 .close-button
-    position: absolute
-    right: 0
+    display: flex
+    justify-content: flex-end
 
 .close-button button
     border: none
-    color: white
-    background-color: black
+    color: (var(--close-button-color))
     border-radius: 0px 18px 0px 10px
-    padding: 15px 30px
+    background-color: (var(--close-button-bg-color))
+    padding: 10px 15px
     cursor: pointer
 
 .project-info
     display: flex
-    justify-content: center
-    width: 100%
+    flex-direction: column
+    align-items: center
+    padding: 0 20px 0 20px
 
 .modal-banner
-    width: 100%
-    height: auto
-    border-radius: 20px 20px 0 0
+    border: 1px solid black
+    border-radius: 8px
+    height: 150px
+
+.presentation-goal
+    display: flex
+    flex-direction: column
+
+.presentation-goal span
+    font-weight: 700
+
+.text-align-center
+    text-align: center
+
+.modal-margin-top
+    margin-top: 20px
+
+.modal-margin-bottom
+    margin-bottom: 20px
+
+.skills
+    display: flex
+
+.skill
+    margin: 0 10px 0 10px
+    padding: 5px 10px 5px 10px
+    background-color: (var(--skills-background-color))
+    color: (var(--skills-text-color))
+    border-radius: 20px
+
+.modal-title
+    font-size: 18px
+    font-weight: 700
