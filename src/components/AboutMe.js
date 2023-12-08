@@ -17,6 +17,7 @@ const AboutMe = () => {
       <span>The Languages and Tools i'm familliar with :</span>
       <div className="logo-div">
         <Image
+          className="bash"
           src="/assets/logo/bash.svg"
           alt="logo bash"
           width={30}

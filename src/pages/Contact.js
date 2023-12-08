@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Nav from "@/components/Nav";
 import Theme from "@/components/Theme";
 import React from "react";
+import ContactForm from "@/components/ContactForm";
 
 const Contact = () => {
   return (
@@ -18,6 +19,7 @@ const Contact = () => {
           <Nav />
         </header>
       </div>
+      <ContactForm />
     </Providers>
   );
 };
