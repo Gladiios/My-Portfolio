@@ -11,7 +11,10 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="bottom-right-form contact-form" onSubmit={handleSubmit}>
+    <form
+      className="bottom-right-form contact-form bottom-right-animation"
+      onSubmit={handleSubmit}
+    >
       <div className="first-last-name">
         <div>
           <label htmlFor="first-name">First Name</label>

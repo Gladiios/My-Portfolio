@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeAboutMe = () => {
   return (
-    <div className="bottom-right" id="home-about-me">
+    <div className="bottom-right bottom-right-animation" id="home-about-me">
       <div>
         <span>Born in 2000</span>
         <span>in Caen, France.</span>

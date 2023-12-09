@@ -9,10 +9,14 @@
 
 .project-div
     display: flex
+    position: relative
     flex-direction: column
     text-align: end
     margin-bottom: 20px
     cursor: pointer
+    animation: rightToLeft .5s ease-in-out
+    opacity: 0
+    animation-fill-mode: forwards
 
 .project-div div
     display: flex
@@ -27,19 +31,3 @@
 .project-div
     position: relative
     overflow: hidden
-
-.project-image
-    display: block
-    position: fixed
-    top: 30%
-    right: 35%
-    width: 35%
-    height: auto
-    z-index: 10
-    border: 1px solid black
-    border-radius: 20px
-    clip-path: inset(0 0 100% 0)
-    transition: clip-path 0.8s ease
-
-.project-div:hover .project-image
-    clip-path: inset(0 0 0 0)

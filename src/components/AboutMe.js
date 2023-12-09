@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="bottom-right">
+    <div className="bottom-right bottom-right-animation">
       <span>
         Since childhood, i spend most of my time in front of a screen,
       </span>
