@@ -5,7 +5,8 @@ import React from "react";
 const Modal = ({ project, onClose }) => {
   return (
     <Providers>
-      <div className="layout">
+      <div>
+        <div className="layout" onClick={onClose}></div>
         <div className="modal-container">
           <div className="close-button">
             <button type="button" onClick={onClose}>

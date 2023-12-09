@@ -33,3 +33,34 @@
         opacity: 1
         visibility: visible
         transform: translateX(0)
+
+@keyframes textLoader
+    0%
+        opacity: 1
+        visibility: visible
+    100%
+        opacity: 0
+        visibility: hidden
+
+@keyframes loaderLeft
+    0%
+        opacity: 1
+        visibility: visible
+        transform: translateX(0%)
+    100%
+        opacity: 0
+        visibility: hidden
+        transform: translateX(-10%)
+        display: none
+
+@keyframes loaderRight
+    0%
+        opacity: 1
+        visibility: visible
+        transform: translateX(0%)
+
+    100%
+        opacity: 0
+        visibility: hidden
+        transform: translateX(10%)
+        display: none
