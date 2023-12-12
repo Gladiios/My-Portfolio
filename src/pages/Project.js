@@ -7,6 +7,7 @@ import Nav from "@/components/Nav";
 import ProjectComponents from "@/components/ProjectComponents";
 import Theme from "@/components/Theme";
 import React, { useState } from "react";
+import Timeline from "@/components/Timeline";
 
 const Project = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,10 +32,11 @@ const Project = () => {
           <Header />
           <Nav />
         </header>
-        <ProjectComponents displayModal={openModal} />
+        <Timeline />
+        {/* <ProjectComponents displayModal={openModal} />
         {isModalOpen && (
           <Modal project={selectedProject} onClose={closeModal} />
-        )}
+        )} */}
       </div>
     </Providers>
   );

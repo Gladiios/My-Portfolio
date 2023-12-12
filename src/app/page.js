@@ -10,11 +10,6 @@ import Providers from "./Providers";
 export default function Home() {
   return (
     <Providers>
-      <div className="loader">
-        <div className="loader-left"></div>
-        <div className="loader-right"></div>
-        <p className="loader-p">Erwan Marie Portfolio</p>
-      </div>
       <div id="page">
         <div id="background"></div>
         <Theme />

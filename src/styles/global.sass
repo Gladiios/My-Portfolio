@@ -8,6 +8,7 @@
 @import "./components/modal"
 @import "./components/contactform"
 @import "./components/keyframes"
+@import "./components/timeline"
 
 :root
     --padding: max(20px, 4vmin)
@@ -21,6 +22,7 @@
     --skills-background-color: #121212
     --skills-text-color: white
     --logo-background-color: #444444
+    --loader-background-color: #7e7e7e
 
 [data-theme="dark"] 
     --frame-line-color: white
@@ -104,37 +106,3 @@ h1,h2,h3,h4,h5,h6,p,ul,li,label
     bottom: 0
     height: 1px
     width: 20%
-
-.loader-left, .loader-right
-    z-index: 97
-    position: absolute
-    background-color: (var(--modal-background-color))
-    width: 50%
-    height: 100%
-
-.loader-left
-    animation: loaderLeft 1s
-    animation-delay: 2s
-    animation-fill-mode: forwards
-
-.loader-right
-    left: 50%
-    animation: loaderRight 1s
-    animation-delay: 2s
-    animation-fill-mode: forwards
-
-.loader-p
-    z-index: 99
-    position: absolute
-    left: 42.5%
-    top: 43%
-    font-size: 30px
-    animation: textLoader 1s ease-in-out
-    animation-delay: 1s
-    animation-fill-mode: forwards
-
-.no-animation
-    animation: none
-
-.hidden-loader
-    display: none

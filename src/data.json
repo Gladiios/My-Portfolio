@@ -5,6 +5,9 @@
             "skills": [
                 "HTML5","CSS3","Figma","Responsive"
             ],
+            "logoSkills": [
+                "/assets/logo/html.svg","/assets/logo/css.svg", "/assets/logo/figma.svg", "/assets/logo/responsive.svg"
+            ],
             "picture": "/assets/booki.webp",
             "banner": "/assets/banner/booki.png",
             "type": "School Project",
@@ -19,6 +22,9 @@
             "title": "OhMyFood",
             "skills": [
                 "HTML5","SASS","Animation","Responsive"
+            ],
+            "logoSkills": [
+                "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg"
             ],
             "picture": "/assets/ohmyfood.webp",
             "banner": "/assets/banner/ohmyfood.png",
@@ -36,6 +42,9 @@
             "skills": [
                 "HTML5","SASS","Javascript","Node.js"
             ],
+            "logoSkills": [
+                "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/javascript.svg", "/assets/logo/nodejs.svg"
+            ],
             "picture": "/assets/sophiebluel.webp",
             "banner": "/assets/banner/sophiebluel.png",
             "type": "School Project",
@@ -50,6 +59,9 @@
             "title": "Menu Maker",
             "skills": [
                 "Project Management","Kanban","Agile Method","Technical Solutions"
+            ],
+            "logoSkills": [
+                "/assets/logo/agile.svg","/assets/logo/kanban.svg"
             ],
             "picture": "/assets/menumaker.webp",
             "banner": "/assets/banner/menumaker.png",
@@ -66,6 +78,9 @@
             "skills": [
                 "React","Sass","Responsive","Figma"
             ],
+            "logoSkills": [
+                "/assets/logo/react.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg", "/assets/logo/figma.svg"
+            ],
             "picture": "/assets/Kasa.webp",
             "banner": "/assets/banner/kasa.png",
             "type": "School Project",
@@ -80,6 +95,9 @@
             "title": "Nina Carducci | Portfolio",
             "skills": [
                 "Optimization","Seo","Wave","Accessibility","Lighthouse"
+            ],
+            "logoSkills": [
+                "/assets/logo/optimization.svg","/assets/logo/seo.svg", "/assets/logo/wave.svg", "/assets/logo/accessibility.svg", "/assets/logo/lighthouse.svg"
             ],
             "picture": "/assets/ninacarducci.webp",
             "banner": "/assets/banner/ninacarducci.jpg",
@@ -97,6 +115,9 @@
             "skills": [
                 "Debugging"
             ],
+            "logoSkills": [
+                "/assets/logo/debugging.svg"
+            ],
             "picture": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
             "type": "School Project",
@@ -111,6 +132,9 @@
             "title": "ArgentBank",
             "skills": [
                 "React","Redux","Sass","MongoDB","Swagger Creation","Responsive"
+            ],
+            "logoSkills": [
+                "/assets/logo/react.svg","/assets/logo/redux.svg", "/assets/logo/sass.svg", "/assets/logo/mongodb.svg", "/assets/logo/responsive.svg", "/assets/logo/swagger.svg"
             ],
             "picture": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",
