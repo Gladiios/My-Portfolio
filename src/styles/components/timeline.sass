@@ -1,93 +1,18 @@
-// .timeline
-//     position: fixed
-//     left: 0
-//     bottom: 50px
-//     width: 100%
-//     display: flex
-//     align-items: center
-//     justify-content: center
-
-// .project-node
-//     display: flex
-//     flex-direction: row
-//     align-items: center
-//     position: relative
-//     margin: 0 20px 0 20px
-
-// .project-node-text
-//     position: absolute
-//     white-space: nowrap
-//     cursor: pointer
-//     text-align: center
-
-// .project-node:nth-child(odd) .project-node-text
-//     top: 0
-//     transform: translateY(-100%) translateX(-50%)
-
-// .project-node:nth-child(even) .project-node-text
-//     bottom: 0
-//     transform: translateY(100%) translateX(-50%)
-
-// .project-node-circle
-//     z-index: 1
-//     background-color: #fff
-//     border: 2px solid #000
-//     border-radius: 50%
-//     width: 30px
-//     height: 30px
-//     cursor: pointer
-//     order: 1
-
-// .project-node:not(:last-child)::after
-//     content: ''
-//     position: absolute
-//     top: 50%
-//     left: 50%
-//     width: calc(100% + 40px)
-//     height: 2px
-//     background-color: #ddd
-//     z-index: 0
-//     transform: translateX(-50%)
-
-// .timeline-year
-//     position: relative
-//     padding: 10px
-
-// .timeline-year::before,
-// .timeline-year::after
-//     content: ''
-//     position: absolute
-//     height: 2px
-//     background-color: #ddd
-
-// .timeline-year.top-year::after
-//     left: 100%
-//     width: 20px
-//     top: 50%
-//     transform: translateY(-50%)
-
-// .timeline-year.bottom-year::before
-//     right: 100%
-//     width: 20px
-//     top: 50%
-//     transform: translateY(-50%)
-
-// .project-node-circle.selected
-//     background-color: #4CAF50
-//     color: white
-
-///////// VERTICAL//////////////
 .timeline
-    position: fixed
-    right: calc(var(--padding) * 8)
-    top: calc(var(--padding) * 5)
+    position: absolute
+    right: calc(var(--padding) * 3)
+    top: calc(var(--padding) * 3)
+    animation: rightToLeft .5s ease-in-out
+    animation-delay: 1.3s
+    animation-fill-mode: forwards
+    opacity: 0
 
 .project-node
     display: flex
     flex-direction: column
     align-items: center
     position: relative
-    margin-bottom: 40px
+    margin-bottom: 60px
 
     &-text
         position: absolute
@@ -96,14 +21,16 @@
         right: calc(100% + 10px)
         transform: rotate(20deg)
         transform-origin: right center
+        top: -25%
+        font-size: 20px
 
     &-circle
         z-index: 1
         background-color: #fff
-        border: 2px solid #000
+        border: 2px solid (var(--node-border-color))
         border-radius: 50%
-        width: 30px
-        height: 30px
+        width: 20px
+        height: 20px
         cursor: pointer
 
     &:not(:last-child)::after
@@ -112,14 +39,13 @@
         left: 50%
         top: 100%
         width: 2px
-        height: 40px
+        height: 60px
         background-color: #ddd
         z-index: -1
         transform: translateX(-50%) translateY(0)
 
     &-circle.selected
-        background-color: #4CAF50
-        color: white
+        background-color: #424242
 
     &:last-of-type::after
         display: none
@@ -149,13 +75,16 @@
     right: calc(100% + 10px)
     transform: rotate(20deg)
     transform-origin: right center
-    top: 80%
+    top: 100%
 
     & img
         width: 20px
         height: 20px
         object-fit: contain
-        border-radius: 50px
-        background-color: white
-        padding: 5px
         margin: 5px
+
+.timeline-container
+    position: relative
+    min-height: 100vh
+    padding-bottom: var(--padding)
+    overflow-y: auto

@@ -12,18 +12,20 @@ const Timeline = () => {
   const reversedDataProject = [...data.dataProject].reverse();
 
   return (
-    <div className="timeline">
-      <p className="timeline-year top-year">2024</p>
-      {reversedDataProject.map((project, index) => (
-        <ProjectNode
-          key={project.title}
-          project={project}
-          isSelected={project.title === selectedProject}
-          onNodeClick={() => handleNodeClick(project)}
-          index={index}
-        />
-      ))}
-      <p className="timeline-year bottom-year">2023</p>
+    <div className="timeline-container">
+      <div className="timeline">
+        <p className="timeline-year top-year">2024</p>
+        {reversedDataProject.map((project, index) => (
+          <ProjectNode
+            key={project.title}
+            project={project}
+            isSelected={project.title === selectedProject}
+            onNodeClick={() => handleNodeClick(project)}
+            index={index}
+          />
+        ))}
+        <p className="timeline-year bottom-year">2023</p>
+      </div>
     </div>
   );
 };

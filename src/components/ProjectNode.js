@@ -1,8 +1,12 @@
-import Image from "next/image";
+import { useTheme } from "next-themes";
 import React from "react";
 
 const ProjectNode = ({ project, isSelected, onNodeClick, index }) => {
+  const { theme } = useTheme();
+  const isDarkTheme = theme === "dark";
   const isTextOnRight = index % 2 === 0; // Alternance basée sur l'index
+
+  const logoStyle = isDarkTheme ? { filter: "invert(100%)" } : {};
 
   return (
     <div className="project-node" onClick={onNodeClick}>
@@ -21,7 +25,13 @@ const ProjectNode = ({ project, isSelected, onNodeClick, index }) => {
       )}
       <div className="project-node-skills">
         {project.logoSkills.map((logo, index) => (
-          <img key={index} src={logo} alt={project.logoSkills} />
+          <img
+            className="project-skill"
+            key={index}
+            src={logo}
+            alt={project.logoSkills}
+            style={logoStyle}
+          />
         ))}
       </div>
     </div>
