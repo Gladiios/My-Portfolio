@@ -1,33 +1,32 @@
 .project-display
-    position: fixed
-    right: calc(var(--padding)*2)
-    top: calc( var(--padding) *2 )
-
-.project-display a
-    text-decoration: none
-    color: black
-
-.project-div
-    display: flex
-    position: relative
-    flex-direction: column
-    text-align: end
-    margin-bottom: 20px
-    cursor: pointer
-    animation: rightToLeft .5s ease-in-out
+    animation: rightToLeft 1s forwards
+    animation-delay: .5s
     opacity: 0
-    animation-fill-mode: forwards
-
-.project-div div
     display: flex
-    justify-content: flex-end
+    justify-content: center
+    align-content: center
+    justify-content: center
+    align-items: center
+    height: 100vh
 
-.project-title
-    font-size: 40px
+.project-display img
+    width: 100%
 
-.project-space
-    margin: 0 5px 0 5px
+.module-container
+    width: 30%
 
-.project-div
-    position: relative
-    overflow: hidden
+.module
+    margin: 0.3rem
+    padding: 1rem
+    border: 1px solid (var(--theme-checkbox-background))
+    border-radius: 15px
+
+.picture-container
+    width: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+
+.content-container
+    display: flex
+    justify-content: center

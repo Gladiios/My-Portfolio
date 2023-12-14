@@ -1,13 +1,15 @@
-import Providers from "@/app/Providers";
+import Providers from "../app/Providers";
 import "../styles/global.sass";
-import Frame from "@/components/Frame";
-import Header from "@/components/Header";
-import Nav from "@/components/Nav";
-import Theme from "@/components/Theme";
-import React, { useState } from "react";
-import Timeline from "@/components/Timeline";
+import Frame from "../components/Frame";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
+import Theme from "../components/Theme";
+import React from "react";
+import Timeline from "../components/Timeline";
+import ProjectDisplay from "../components/ProjectDisplay";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-const Project = () => {
+export default function Project() {
   return (
     <Providers>
       <div id="page">
@@ -19,9 +21,20 @@ const Project = () => {
           <Nav />
         </header>
         <Timeline />
+        <ProjectDisplay />
       </div>
     </Providers>
   );
-};
+}
 
-export default Project;
+export async function getStaticProps(context) {
+  // extract the locale identifier from the URL
+  const { locale } = context;
+
+  return {
+    props: {
+      // pass the translation props to the page component
+      ...(await serverSideTranslations(locale)),
+    },
+  };
+}

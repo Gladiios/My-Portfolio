@@ -1,14 +1,14 @@
-import Providers from "../app/Providers";
-import "../styles/global.sass";
+"use client";
 import Frame from "../components/Frame";
 import Header from "../components/Header";
+import HomeAboutMe from "../components/HomeAboutMe";
 import Nav from "../components/Nav";
 import Theme from "../components/Theme";
-import React from "react";
-import ContactForm from "../components/ContactForm";
+import Providers from "../app/Providers";
+import "../styles/global.sass";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-export default function Contact() {
+export default function Index() {
   return (
     <Providers>
       <div id="page">
@@ -19,8 +19,8 @@ export default function Contact() {
           <Header />
           <Nav />
         </header>
+        <HomeAboutMe />
       </div>
-      <ContactForm />
     </Providers>
   );
 }

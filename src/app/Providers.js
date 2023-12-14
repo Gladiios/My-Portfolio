@@ -1,24 +1,19 @@
-"use client"
-import {useState, useEffect} from 'react'
-import { ThemeProvider } from 'next-themes'
+"use client";
+import { useState, useEffect } from "react";
+import { ThemeProvider } from "next-themes";
 
-const Providers = ({children}) => {
+const Providers = ({ children }) => {
+  const [mounted, setMounted] = useState(false);
 
-    const [mounted, setMounted] = useState(false)
-  
-    // useEffect only runs on the client, so now we can safely show the UI
-    useEffect(() => {
-      setMounted(true)
-    }, [])
-  
-    if (!mounted) {
-      return <>{children}</>
-    }
-  return (
-    <ThemeProvider>
-        {children}
-    </ThemeProvider>
-  )
-}
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-export default Providers
+  if (!mounted) {
+    return <>{children}</>;
+  }
+  return <ThemeProvider>{children}</ThemeProvider>;
+};
+
+export default Providers;

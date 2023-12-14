@@ -146,5 +146,6 @@
             "goal": "With a model given to me, i had to recreate the static HTML in react. I first started by creating the landing page with reusable components for the “features” section. After that I created the login system, i also managed the logout. To finish, in the user profile page, i added a form who allow the user to change only his username. All of these user actions were managed with the Redux Store. For phase 2 of the project, I had to propose endpoints in the form of a swagger, each endpoint had to have: the HTTP method, the route, the description of what the endpoint corresponds to and the different responses with the corresponding response code",
             "github": "https://github.com/Gladiios/oc-p11"
         }
+        
     ]
  }

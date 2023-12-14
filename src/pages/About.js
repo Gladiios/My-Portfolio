@@ -1,13 +1,14 @@
 import "../styles/global.sass";
-import Frame from "@/components/Frame";
-import Header from "@/components/Header";
-import Nav from "@/components/Nav";
+import Frame from "../components/Frame";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
 import React from "react";
-import Theme from "@/components/Theme";
-import AboutMe from "@/components/AboutMe";
-import Providers from "@/app/Providers";
+import Theme from "../components/Theme";
+import AboutMe from "../components/AboutMe";
+import Providers from "../app/Providers";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-const About = () => {
+export default function About() {
   return (
     <Providers>
       <div id="page">
@@ -22,6 +23,16 @@ const About = () => {
       </div>
     </Providers>
   );
-};
+}
 
-export default About;
+export async function getStaticProps(context) {
+  // extract the locale identifier from the URL
+  const { locale } = context;
+
+  return {
+    props: {
+      // pass the translation props to the page component
+      ...(await serverSideTranslations(locale)),
+    },
+  };
+}
