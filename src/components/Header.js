@@ -6,7 +6,9 @@ const Header = () => {
   const { t } = useTranslation("common");
   return (
     <div className="name">
-      <h1>Erwan Marie</h1>
+      <h1>
+        Erwan <span className="glow">Marie</span>
+      </h1>
       <h2>{t("header-h2")}</h2>
       <LanguageSwitcher />
     </div>

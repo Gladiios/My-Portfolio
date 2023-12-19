@@ -19,8 +19,8 @@ export default function Contact() {
           <Header />
           <Nav />
         </header>
+        <ContactForm />
       </div>
-      <ContactForm />
     </Providers>
   );
 }

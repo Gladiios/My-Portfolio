@@ -8,14 +8,24 @@
             "logoSkills": [
                 "/assets/logo/html.svg","/assets/logo/css.svg", "/assets/logo/figma.svg", "/assets/logo/responsive.svg"
             ],
-            "picture": "/assets/booki.webp",
-            "banner": "/assets/banner/booki.png",
+            "picture": [
+                {"src": "/assets/booki/header.webp"},
+                {"src": "/assets/booki/activites.webp"},
+                {"src": "/assets/booki/filtres.webp"},
+                {"src": "/assets/booki/hebergement.webp"},
+                {"src": "/assets/booki/responsive-header.webp"},
+                {"src": "/assets/booki/responsive-activités.webp"},
+                {"src": "/assets/booki/responsive-hebergement.webp"},
+                {"src": "/assets/booki/responsive-populaire.webp"}
+            ],
+            "background": "/assets/booki.webp",
+            "banner": "/assets/booki/booki.webp",
             "type": "School Project",
             "date": "2023",
             "id": "booki",
-            "client": "A company who wants to develop a website for finding accomodations and activities.",
-            "presentation": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
-            "goal": "Using only HTML and CSS, the goal here was to be as close as possible to the figma model and to make the site responsive for tablet and mobile.",
+            "client": "client-booki",
+            "presentation": "presentation-booki",
+            "goal": "goal-booki",
             "github": ""
         },
         {
@@ -26,8 +36,17 @@
             "logoSkills": [
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg"
             ],
-            "picture": "/assets/ohmyfood.webp",
-            "banner": "/assets/banner/ohmyfood.png",
+            "picture": [
+                {"src": "/assets/ohmyfood/header.webp"},
+                {"src": "/assets/ohmyfood/loader.webp"},
+                {"src": "/assets/ohmyfood/menu-animation.webp"},
+                {"src": "/assets/ohmyfood/restaurant-card.webp"},
+                {"src": "/assets/ohmyfood/responsive-header.webp"},
+                {"src": "/assets/ohmyfood/responsive-card.webp"},
+                {"src": "/assets/ohmyfood/responsive-menu-animation.webp"}
+            ],
+            "background": "/assets/ohmyfood.webp",
+            "banner": "/assets/ohmyfood/ohmyfood.webp",
             "type": "School Project",
             "date": "2023",
             "id": "ohmyfood",
@@ -45,8 +64,17 @@
             "logoSkills": [
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/javascript.svg", "/assets/logo/nodejs.svg"
             ],
-            "picture": "/assets/sophiebluel.webp",
-            "banner": "/assets/banner/sophiebluel.png",
+            "picture": [
+                {"src": "/assets/sophiebluel/header.webp"},
+                {"src": "/assets/sophiebluel/project.webp"},
+                {"src": "/assets/sophiebluel/project-filter.webp"},
+                {"src": "/assets/sophiebluel/login-form.webp"},
+                {"src": "/assets/sophiebluel/header-admin.webp"},
+                {"src": "/assets/sophiebluel/modal-1.webp"},
+                {"src": "/assets/sophiebluel/modal-2.webp"}
+            ],
+            "background": "/assets/sophiebluel.webp",
+            "banner": "/assets/sophiebluel/sophiebluel.webp",
             "type": "School Project",
             "date": "2023",
             "id": "sophie-bluel",
@@ -63,8 +91,22 @@
             "logoSkills": [
                 "/assets/logo/agile.svg","/assets/logo/kanban.svg"
             ],
-            "picture": "/assets/menumaker.webp",
-            "banner": "/assets/banner/menumaker.png",
+            "picture": [
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"},
+                {"src": "/assets/.webp"}
+            ],
+            "background": "/assets/menumaker.webp",
+            "banner": "/assets/menumaker/menumaker.webp",
             "type": "School Project",
             "date": "2023",
             "id": "menu-maker",
@@ -81,8 +123,18 @@
             "logoSkills": [
                 "/assets/logo/react.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg", "/assets/logo/figma.svg"
             ],
-            "picture": "/assets/Kasa.webp",
-            "banner": "/assets/banner/kasa.png",
+            "picture": [
+                {"src": "/assets/kasa/landing-header.webp"},
+                {"src": "/assets/kasa/about-header.webp"},
+                {"src": "/assets/kasa/collapse.webp"},
+                {"src": "/assets/kasa/carrousel.webp"},
+                {"src": "/assets/kasa/info.webp"},
+                {"src": "/assets/kasa/responsive-header.webp"},
+                {"src": "/assets/kasa/responsive-about-header.webp"},
+                {"src": "/assets/kasa/responsive-info.webp"}
+            ],
+            "background": "/assets/Kasa.webp",
+            "banner": "/assets/kasa/kasa.webp",
             "type": "School Project",
             "date": "2023",
             "id": "kasa",
@@ -99,7 +151,19 @@
             "logoSkills": [
                 "/assets/logo/optimization.svg","/assets/logo/seo.svg", "/assets/logo/wave.svg", "/assets/logo/accessibility.svg", "/assets/logo/lighthouse.svg"
             ],
-            "picture": "/assets/ninacarducci.webp",
+            "picture": [
+                {"src": "/assets/ninacarducci/header.webp"},
+                {"src": "/assets/ninacarducci/gallery.webp"},
+                {"src": "/assets/ninacarducci/keywords.webp"},
+                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp"},
+                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp"},
+                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp"},
+                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp"},
+                {"src": "/assets/ninacarducci/meta-fb.webp"},
+                {"src": "/assets/ninacarducci/rich-snippet.webp"},
+                {"src": "/assets/ninacarducci/resultat-wave.webp"}
+            ],
+            "background": "/assets/ninacarducci.webp",
             "banner": "/assets/banner/ninacarducci.jpg",
             "type": "School Project",
             "date": "2023",
@@ -118,7 +182,13 @@
             "logoSkills": [
                 "/assets/logo/debugging.svg"
             ],
-            "picture": "/assets/77events.webp",
+            "picture": [
+                {"src": "/assets/77events/header.webp"},
+                {"src": "/assets/77events/gallery.webp"},
+                {"src": "/assets/77events/contact-form.webp"},
+                {"src": "/assets/77events/footer.webp"}
+            ],
+            "background": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
@@ -136,7 +206,16 @@
             "logoSkills": [
                 "/assets/logo/react.svg","/assets/logo/redux.svg", "/assets/logo/sass.svg", "/assets/logo/mongodb.svg", "/assets/logo/responsive.svg", "/assets/logo/swagger.svg"
             ],
-            "picture": "/assets/argentbank.webp",
+            "picture": [
+                {"src": "/assets/argentbank/header.webp"},
+                {"src": "/assets/argentbank/login.webp"},
+                {"src": "/assets/argentbank/account.webp"},
+                {"src": "/assets/argentbank/form.webp"},
+                {"src": "/assets/argentbank/responsive-header.webp"},
+                {"src": "/assets/argentbank/responsive-account.webp"},
+                {"src": "/assets/argentbank/store.webp"}
+            ],
+            "background": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",
             "type": "School Project",
             "date": "2023",

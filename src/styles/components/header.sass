@@ -21,14 +21,16 @@ header
     animation-delay: .3s
     animation-fill-mode: forwards
 
-@keyframes topToBottom
-    0%
-        opacity: 0
-        visibility: hidden
-        transform: translateY(-100%)
-    1%
-        visibility: visible
-    100%
-        opacity: 1
-        visibility: visible
-        transform: translateY(0)
+.glow
+    color: #fff
+    text-align: center
+    -webkit-animation: glow 1s ease-in-out infinite alternate
+    -moz-animation: glow 1s ease-in-out infinite alternate
+    animation: glow 1s ease-in-out infinite alternate
+
+@keyframes glow
+    from
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff
+
+    to
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffffff

@@ -1,3 +1,16 @@
-{
-    "header-h2": "Front-End Developer"
+{   
+    "header-h2": "Web Developer",
+    "nav-about": "About Me",
+    "nav-project": "Project",
+
+    "theme-dark": "Dark",
+    "theme-light": "Light",
+
+    "homeAbout": "Born in 2000\nin Caen, France.\nFrom pastry chef to\ndelivery guy.\nAfter 7 years of jobs\nthat i don't like\nand multiple tought.\nI decided to learn\nweb development.\nFrom this point,\ni signed up to a\nFront-End developer\nformation on\nOpen Classrooms\nwich last 9 months\nand ended it in less\nthan 6 months.",
+
+    "aboutText":"Hi, i'm Erwan, a Web Developer. Since childhood, i spend most\nof my time in front of a screen, i also like to learn, create and design.\nI've worked as an apprentice pastry chef from 2016 to 2018 at the\nBoulangerie Cherie in Potigny and earned a diploma in this field\nbut i immediately stopped since i weren't passionate enough to keep working in this area.\nAfter that, in 2019 i worked for something like 2 months as garbage collector,\nthen i worked for 2 years as a order picker at Metaluplast, a factory creating sports equipment.\nAs the pay was not good enough for me, i stopped working at Metaluplast and found a job as\na delivery guy in june 2021 for DPD and Chronopost, i became a manager shortly after being\nrecruited and I managed a team of 5 people. Near the end of 2022 i made arrangements with my employer\nto quit since i was tired of doing this job and in january 2023 my contract came to a end.\nCurrently i'm only able to do front-end development,but i intend to learn back-end development in a near future.\nThe Languages and Tools i'm familliar with :",
+
+    "client-booki": "A company who wants to develop a website for finding accomodations and activities.",
+    "presentation-booki": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
+    "goal-booki": "Using only HTML and CSS, the goal here was to be as close as possible to the figma model and to make the site responsive for tablet and mobile."
 }

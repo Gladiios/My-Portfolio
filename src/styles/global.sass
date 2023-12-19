@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap")
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Plus+Jakarta+Sans&display=swap')
 @import "./components/header"
 @import "./components/nav"
 @import "./components/home_about_me"
@@ -9,6 +9,7 @@
 @import "./components/contactform"
 @import "./components/keyframes"
 @import "./components/timeline"
+@import "./components/project_display"
 
 :root
     --padding: max(20px, 4vmin)
@@ -67,7 +68,7 @@ html, body
     width: 100%
 
 h1,h2,h3,h4,h5,h6,p,ul,li,label
-    font-family: Nunito
+    font-family: Plus Jakarta Sans
     margin: 0
     padding: 0
 
@@ -85,7 +86,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,label
 .frame_line
     position: absolute
     background-color: var(--frame-line-color)
-    opacity: .5
+    opacity: 1
 
 .frame_line-left
     left: 0
@@ -111,5 +112,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li,label
     height: 1px
     width: 20%
 
-.display-node
-    display: none
+.frame_top_left-none
+    animation: topFrameOut 2s forwards
+
+.frame_bottom_right-none
+    animation: bottomFrameOut 2s forwards

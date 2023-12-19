@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import "../styles/global.sass";
+import { useTranslation } from "next-i18next";
 
 const Theme = () => {
+  const { t } = useTranslation("common");
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -29,7 +31,7 @@ const Theme = () => {
           checked={theme === "dark"}
           onChange={() => handleThemeChange("dark")}
         />
-        <label htmlFor="dark-theme">Dark</label>
+        <label htmlFor="dark-theme">{t("theme-dark")}</label>
       </div>
       <div>
         <input
@@ -39,7 +41,7 @@ const Theme = () => {
           checked={theme === "light"}
           onChange={() => handleThemeChange("light")}
         />
-        <label htmlFor="light-theme">Light</label>
+        <label htmlFor="light-theme">{t("theme-light")}</label>
       </div>
     </div>
   );

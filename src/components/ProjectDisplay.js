@@ -1,7 +1,9 @@
-import Image from "next/image";
 import React from "react";
+import { useTranslation } from "next-i18next";
+import ProjectImage from "./ProjectPicture";
 
 const ProjectDisplay = ({ project }) => {
+  const { t } = useTranslation("common");
   // Vérifiez si project n'est pas undefined avant de tenter d'accéder à ses propriétés
   if (!project) {
     return <div>Loading...</div>; // Ou toute autre gestion d'erreur ou de chargement
@@ -11,25 +13,17 @@ const ProjectDisplay = ({ project }) => {
     <div className="project-display">
       <div className="content-container">
         <div className="picture-container">
-          <img src={project.picture} />
+          <img src={project.background} />
         </div>
-        <div className="module-container">
-          <div>
-            <p>Client</p>
-            <p className="project-client module">
-              <p>{project.client}</p>
-            </p>
-          </div>
-          <div>
-            <p>Presentation</p>
-            <p className="project-presentation module">
-              {project.presentation}
-            </p>
-          </div>
-          <div>
-            <p>Goal</p>
-            <p className="project-goal module">{project.goal}</p>
-          </div>
+        <div className="project-container">
+          {project.picture.map((image, index) => (
+            <ProjectImage
+              key={index}
+              picture={image}
+              projectTitle={project.title}
+              index={index}
+            />
+          ))}
         </div>
       </div>
     </div>

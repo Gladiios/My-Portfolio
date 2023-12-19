@@ -14,8 +14,20 @@ const Timeline = () => {
 
   const handleNodeClick = (project) => {
     setSelectedProject(project.title);
+    const leftOutAnimation = document.querySelectorAll(
+      "header, .frame_line-top, .frame_line-left, .theme"
+    );
+    leftOutAnimation.forEach((el) => {
+      el.classList.add("frame_top_left-none");
+    });
+    //
+    const rightOutAnimation = document.querySelectorAll(
+      ".frame_line-right , .frame_line-bottom"
+    );
+    rightOutAnimation.forEach((el) => {
+      el.classList.add("frame_bottom_right-none");
+    });
     document.querySelector(".timeline").classList.add("slide-out");
-    document.querySelector("header").classList.add("display-node");
   };
 
   const reversedDataProject = [...data.dataProject].reverse();

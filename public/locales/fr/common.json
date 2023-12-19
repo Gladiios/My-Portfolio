@@ -1,3 +1,17 @@
-{
-    "header-h2": "Développeur Front-End"
+{   
+        "header-h2": "Développeur Web",
+        "nav-about": "À propos",
+        "nav-project": "Projets",
+
+        "theme-dark": "Sombre",
+        "theme-light": "Défaut",
+
+        "homeAbout": "Né en 2000\nà Caen, France.\nDe pâtissier à\nlivreur.\nAprès 7 ans de travail\nqui ne me correspondais pas,\net de multiples pensées.\nJ'ai décidé d'apprendre\nle dévelopement web.\nÀ partir de ce point,\nje me suis inscrit\nà une formation de\ndéveloppeur web sur la\nplateforme Open Classrooms\nqui dure 9 mois\net je l'ai terminée\nen moins de 6 mois.",
+
+        "aboutText":"Hey, je suis Erwan, un Developpeur Web. Depuis l'enfance, je passe la plupart\nde mon temps devant un écran, j'aime également apprendre, créer et concevoir. J'ai travaillé\ncomme apprenti pâtissier de 2016 à 2018 à la boulangerie Chérie à Potigny et j'ai obtenu\nmon diplôme, mais j'ai immédiatement arrêté car je n'étais pas suffisamment passionné pour continuer\nde travailler dans ce domaine. Après ça, en 2019 j'ai travaillé pendant environ 2 mois\ncomme ripeur, puis après j'ai travaillé pendant 2 ans comme préparateur de commande à Metaluplast,\n une usine spécialisée dans l'équipement sportif. Comme la paie n'était pas suffisamment bonne pour moi,\nj'ai arrêté de travailler à Metaluplast et j'ai trouvé un travail de livreur en juin 2021 pour DPD et Chronopost,\nje suis devenu chef d'équipe quelques mois après avoir été recruté et j'ai géré une équipe de 5 personnes.\nVers la fin de 2022 je me suis arrangé avec mon employeur pour arrêter car ce travail ne me plaisais plus\net en janvier 2023 mon contrat s'est terminé.\nActuellement je ne sais faire que du Front-End mais j'ai l'intention d'apprendre le Back-End dans un futur proche.\nLes outils et languages avec lesquels je suis famillier :",
+
+        "client-booki": "Une entreprise qui souhaite développer un site permettant de trouver un hébergement et des activités.",
+        "presentation-booki": "Booki est un projet qui cherche à simplifier la recherche d'hébergements et d'activités dans la ville choisie par l'utilisateur.",
+        "goal-booki": "En utilisant uniquement HTML et CSS, le but ici, était d'être aussi proche que possible de la maquette figma tout en rendant le site responsive. "
+        
 }

@@ -24,7 +24,6 @@ export default function Index() {
     </Providers>
   );
 }
-
 export async function getStaticProps(context) {
   // extract the locale identifier from the URL
   const { locale } = context;
