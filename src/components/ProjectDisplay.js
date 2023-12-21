@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "next-i18next";
-import ProjectImage from "./ProjectPicture";
+import ProjectImage from "./ProjectImage";
 
 const ProjectDisplay = ({ project }) => {
   const { t } = useTranslation("common");
@@ -10,7 +10,7 @@ const ProjectDisplay = ({ project }) => {
   }
 
   return (
-    <div className="project-display">
+    <div className={`project-display ${project.id}`}>
       <div className="content-container">
         <div className="picture-container">
           <img src={project.background} />

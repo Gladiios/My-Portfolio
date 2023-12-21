@@ -10,7 +10,46 @@
 
     "aboutText":"Hi, i'm Erwan, a Web Developer. Since childhood, i spend most\nof my time in front of a screen, i also like to learn, create and design.\nI've worked as an apprentice pastry chef from 2016 to 2018 at the\nBoulangerie Cherie in Potigny and earned a diploma in this field\nbut i immediately stopped since i weren't passionate enough to keep working in this area.\nAfter that, in 2019 i worked for something like 2 months as garbage collector,\nthen i worked for 2 years as a order picker at Metaluplast, a factory creating sports equipment.\nAs the pay was not good enough for me, i stopped working at Metaluplast and found a job as\na delivery guy in june 2021 for DPD and Chronopost, i became a manager shortly after being\nrecruited and I managed a team of 5 people. Near the end of 2022 i made arrangements with my employer\nto quit since i was tired of doing this job and in january 2023 my contract came to a end.\nCurrently i'm only able to do front-end development,but i intend to learn back-end development in a near future.\nThe Languages and Tools i'm familliar with :",
 
-    "client-booki": "A company who wants to develop a website for finding accomodations and activities.",
-    "presentation-booki": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
-    "goal-booki": "Using only HTML and CSS, the goal here was to be as close as possible to the figma model and to make the site responsive for tablet and mobile."
+    "bookiHeader": "A company who wants to develop a website for finding accomodations and activities.",
+    "bookiFilters": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
+    "bookiPopular": "Using only HTML and CSS, the goal here was to be as close as possible to the figma model and to make the site responsive for tablet and mobile.",
+    "bookiActivities":  "Mobile Version.",
+
+    "ohMyFoodIntro": "A restoration startup who want to develop a website wich list gastronomic restaurant menu.",
+    "ohMyFoodGoal": "OhMyFood is a project linked to catering, which in addition to classic reservation systems, allows customers to compose the menu of their meals so that they are ready upon their arrival.",
+    "ohMyFoodMobile": "The goal was to create the site in mobile first, using HTML and Sass, with some animation like a loading screen, heart filling with hover or click and a checkout validation moving the price of a menu item.",
+
+    "sophieBluelGoal": "Using an already created backend, I imported dynamically with javascript the project realized by the interior designer, with filters by category. I also created the login page using Json Web Tokens with a redirection on the landing page when the administrator is logged in succesfully. To finish, i implemented a modal on the landing page, allowing the admin to POST or DELETE a work.",
+    "sophieBluelFilters":"The functionnal filters.",
+    "sophieBluelLogin":"Authentification system with JSON Web Tokens.",
+    "sophieBluelAdmin": "The admin view when the user is logged in.",
+    "sophieBluelModal1": "The first window of the modal, allow the user to delete a work while clicking on the trashcan and also allow to navigate to the add work window.",
+    "sophieBluelModal2": "On the second window, the user can add a work by uploading a picture wich is less than 4mo, he also need to fill the title field and choose a category, when those conditions are filled, the validate button change color to go green.",
+
+    "kasaGoal1": "Kasa is a leader in apartment rental, the goal here was to modernize the existing website, using React with reusable components as you can see with the banner who don't have the same picture on different page, and also routes using React Router.",
+    "kasaGoal2": "The collapse components is also reusable.",
+    "KasaCarousel": "When clicking on a image in the gallery, a redirection is done, displaying the informations corresponding the apartment.\n A carousel display the apartment picture.",
+    "kasaInfo": "Every informations displayed here are dynamic, the name, the tags, or also the star rating. The collapse components is reused here with 'Description' and 'Equipments'.",
+    "kasaInfoAfter": "The website is also completly responsive.",
+
+    "ninaCarducciGallery": "Nina carducci is a portfolio website of a profesionnal photographer specialized in portrait and event photography.\n The goal of the project was to improve the site performance, reduce loading times and add local SEO.",
+    "ninaCarducciLighthouseBase": "The audit Lighthouse result weren't that good, whether it be Performance, Accessibility or the SEO.\n To improve this i optimized the images, to which i added lazyloading. I minified the existing javascript files, these modifications significantly increased the performance of the site. I reorganized the HTML structure and also added the meta tag for the social networks",
+    "ninaCarducciLighthouseOpti": "After those improvements, you can see on the Lighthouse audit, the huge gap between before and after the optimization. Whether it be on mobile or desktop Audit.",
+    "ninaCarducciKeywords": "For the Seo, i also added some keywords hidden in different text.",
+    "ninaCarducciMeta": "Meta result for Facebook SEO.",
+    "ninaCarducciSnippet": "Google Rich Snippet result, showing the information about the local SEO.",
+    "ninaCarducciWave": "Wave result, showing no errors about the accessibility of the site.",
+
+    "77eventsGallery": "The goal here was to debug the website, The carousel wasn't working correctly, a white picture was displayed, to change the current slide,the radio button were not usable and the picture were supposed to be displayed from oldest to most recent. In the list of events, some do not display any dates and others do not display the correct ones, the filters weren't working either. ",
+    "77eventsContactForm":"Concerning the contact form, no confirmation message were displayed.",
+    "77eventsFooter": "To finish, the picture in the footer was supposed to display the last event, with the date and the category.",
+    "77eventsFooterAfter": "To complete the task, i used the unitary test to check each components of the website, in parallel i wrote a test book wich include scenario, allowing me to check the proper functioning of the targetted components.",
+
+    "argentbankLogin": "I had to create the user dashboard while using React and Redux to manage the state.",
+    "argentbankAccount": "With a model given to me, i had to recreate the static HTML in react. I first started by creating the landing page with reusable components for the “features” section.",
+    "argentbankForm": "After that I created the login system, i also managed the logout. To finish, in the user profile page, i added a form who allow the user to change only his username.",
+    "argentbankStore": "All of these user actions were managed with the Redux Store. For phase 2 of the project, I had to propose endpoints in the form of a swagger, each endpoint had to have: the HTTP method, the route, the description of what the endpoint corresponds to and the different responses with the corresponding response code"
+
+
+
 }

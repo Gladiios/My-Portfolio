@@ -9,23 +9,20 @@
                 "/assets/logo/html.svg","/assets/logo/css.svg", "/assets/logo/figma.svg", "/assets/logo/responsive.svg"
             ],
             "picture": [
-                {"src": "/assets/booki/header.webp"},
-                {"src": "/assets/booki/activites.webp"},
-                {"src": "/assets/booki/filtres.webp"},
-                {"src": "/assets/booki/hebergement.webp"},
-                {"src": "/assets/booki/responsive-header.webp"},
-                {"src": "/assets/booki/responsive-activités.webp"},
-                {"src": "/assets/booki/responsive-hebergement.webp"},
-                {"src": "/assets/booki/responsive-populaire.webp"}
+                {"src": "/assets/booki/header.webp", "text":"Booki"},
+                {"src": "/assets/booki/filtres.webp", "text":"bookiHeader"},
+                {"src": "/assets/booki/hebergement.webp", "text":"bookiFilters"},
+                {"src": "/assets/booki/activites.webp", "text":"bookiPopular", "textAfter": "bookiActivities"},
+                {"src": "/assets/booki/responsive-header.webp", "text":""},
+                {"src": "/assets/booki/responsive-populaire.webp", "text":""},
+                {"src": "/assets/booki/responsive-hebergement.webp", "text":""},
+                {"src": "/assets/booki/responsive-activités.webp", "text":""}
             ],
             "background": "/assets/booki.webp",
             "banner": "/assets/booki/booki.webp",
             "type": "School Project",
             "date": "2023",
             "id": "booki",
-            "client": "client-booki",
-            "presentation": "presentation-booki",
-            "goal": "goal-booki",
             "github": ""
         },
         {
@@ -37,27 +34,24 @@
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg"
             ],
             "picture": [
-                {"src": "/assets/ohmyfood/header.webp"},
-                {"src": "/assets/ohmyfood/loader.webp"},
-                {"src": "/assets/ohmyfood/menu-animation.webp"},
-                {"src": "/assets/ohmyfood/restaurant-card.webp"},
-                {"src": "/assets/ohmyfood/responsive-header.webp"},
-                {"src": "/assets/ohmyfood/responsive-card.webp"},
-                {"src": "/assets/ohmyfood/responsive-menu-animation.webp"}
+                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood"},
+                {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodIntro"},
+                {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodGoal", "textAfter": "ohMyFoodMobile"},
+                {"src": "/assets/ohmyfood/loader.webp", "text":""},
+                {"src": "/assets/ohmyfood/responsive-header.webp", "text":""},
+                {"src": "/assets/ohmyfood/responsive-card.webp", "text":""},
+                {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":""}
             ],
             "background": "/assets/ohmyfood.webp",
             "banner": "/assets/ohmyfood/ohmyfood.webp",
             "type": "School Project",
             "date": "2023",
             "id": "ohmyfood",
-            "client":"OhMyFood, a restoration startup.",
-            "presentation": "OhMyFood is a startup who want to develop a website wich list gastronomic restaurant menu.",
-            "goal": "The goal was to create the site in mobile first, using HTML and Sass, with some animation like a loading screen, heart filling with hover or click and a checkout validation moving the price of a menu item.",
             "github": "https://github.com/Gladiios/oc-p4"
 
         },
         {
-            "title": "Sophie Bluel | Portfolio",
+            "title": "Sophie Bluel",
             "skills": [
                 "HTML5","SASS","Javascript","Node.js"
             ],
@@ -65,22 +59,19 @@
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/javascript.svg", "/assets/logo/nodejs.svg"
             ],
             "picture": [
-                {"src": "/assets/sophiebluel/header.webp"},
-                {"src": "/assets/sophiebluel/project.webp"},
-                {"src": "/assets/sophiebluel/project-filter.webp"},
-                {"src": "/assets/sophiebluel/login-form.webp"},
-                {"src": "/assets/sophiebluel/header-admin.webp"},
-                {"src": "/assets/sophiebluel/modal-1.webp"},
-                {"src": "/assets/sophiebluel/modal-2.webp"}
+                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel | Portfolio"},
+                {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal"},
+                {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters"},
+                {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin"},
+                {"src": "/assets/sophiebluel/header-admin.webp", "text":"sophieBluelAdmin"},
+                {"src": "/assets/sophiebluel/modal-1.webp", "text":"sophieBluelModal1"},
+                {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2"}
             ],
             "background": "/assets/sophiebluel.webp",
             "banner": "/assets/sophiebluel/sophiebluel.webp",
             "type": "School Project",
             "date": "2023",
             "id": "sophie-bluel",
-            "client":"Sophie Bluel, an interior designer ",
-            "presentation": "As a front-end developer for the ArchiWebos agency, i helped on the realization of the portfolio website.",
-            "goal": "Using an already created backend, I imported dynamically with javascript the project realized by the interior designer, with filters by category. I also created the login page using Json Web Tokens with a redirection on the landing page when the administrator is logged in succesfully. To finish, i implemented a modal on the landing page, allowing the admin to POST or DELETE a work.",
             "github": "https://github.com/Gladiios/oc-p6"
         },
         {
@@ -92,18 +83,18 @@
                 "/assets/logo/agile.svg","/assets/logo/kanban.svg"
             ],
             "picture": [
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"},
-                {"src": "/assets/.webp"}
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""},
+                {"src": "/assets/.webp", "text":""}
             ],
             "background": "/assets/menumaker.webp",
             "banner": "/assets/menumaker/menumaker.webp",
@@ -124,27 +115,24 @@
                 "/assets/logo/react.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg", "/assets/logo/figma.svg"
             ],
             "picture": [
-                {"src": "/assets/kasa/landing-header.webp"},
-                {"src": "/assets/kasa/about-header.webp"},
-                {"src": "/assets/kasa/collapse.webp"},
-                {"src": "/assets/kasa/carrousel.webp"},
-                {"src": "/assets/kasa/info.webp"},
-                {"src": "/assets/kasa/responsive-header.webp"},
-                {"src": "/assets/kasa/responsive-about-header.webp"},
-                {"src": "/assets/kasa/responsive-info.webp"}
+                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa"},
+                {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1"},
+                {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2"},
+                {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel"},
+                {"src": "/assets/kasa/info.webp", "text":"kasaInfo", "textAfter":"kasaInfoAfter"},
+                {"src": "/assets/kasa/responsive-header.webp", "text":""},
+                {"src": "/assets/kasa/responsive-about-header.webp", "text":""},
+                {"src": "/assets/kasa/responsive-info.webp", "text":""}
             ],
             "background": "/assets/Kasa.webp",
             "banner": "/assets/kasa/kasa.webp",
             "type": "School Project",
             "date": "2023",
             "id": "kasa",
-            "client":"Kasa, a leader in apartment rental ",
-            "presentation": "I've been recruited as a freelance front-end developer for their new web platform.",
-            "goal": "The goal here was to modernize the existing website using React with reusable components and routes using React Router. When clicking on an element in the gallery, a redirection to another page is carried out, the information linked to the clicked element is displayed on this page, I integrated here interactive components like a carousel to display the accomodation pictures or a collapse with CSS animation. It was also necessary for the application to be responsive.",
             "github": "https://github.com/Gladiios/oc-p8"
         },
         {
-            "title": "Nina Carducci | Portfolio",
+            "title": "Nina Carducci",
             "skills": [
                 "Optimization","Seo","Wave","Accessibility","Lighthouse"
             ],
@@ -152,25 +140,22 @@
                 "/assets/logo/optimization.svg","/assets/logo/seo.svg", "/assets/logo/wave.svg", "/assets/logo/accessibility.svg", "/assets/logo/lighthouse.svg"
             ],
             "picture": [
-                {"src": "/assets/ninacarducci/header.webp"},
-                {"src": "/assets/ninacarducci/gallery.webp"},
-                {"src": "/assets/ninacarducci/keywords.webp"},
-                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp"},
-                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp"},
-                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp"},
-                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp"},
-                {"src": "/assets/ninacarducci/meta-fb.webp"},
-                {"src": "/assets/ninacarducci/rich-snippet.webp"},
-                {"src": "/assets/ninacarducci/resultat-wave.webp"}
+                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci | Portfolio"},
+                {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery"},
+                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase"},
+                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":""},
+                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp", "text":"ninaCarducciLighthouseOpti"},
+                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp", "text":""},
+                {"src": "/assets/ninacarducci/keywords.webp", "text":"ninaCarducciKeywords"},
+                {"src": "/assets/ninacarducci/meta-fb.webp", "text":"ninaCarducciMeta"},
+                {"src": "/assets/ninacarducci/rich-snippet.webp", "text":"ninaCarducciSnippet"},
+                {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave"}
             ],
             "background": "/assets/ninacarducci.webp",
             "banner": "/assets/banner/ninacarducci.jpg",
             "type": "School Project",
             "date": "2023",
             "id": "nina-carducci",
-            "client":"Nina Carducci",
-            "presentation": "Nina carducci is a portfolio website of a profesionnal photographer specialized in portrait and event photography",
-            "goal": "The goal of the project was to improve the site performance, reduce loading times and add local SEO. I optimized the images, to which i added lazyloading. I minified the existing javascript files, these modifications significantly increased the performance of the site. I reorganized the HTML structure and also added the meta tag for the social networks",
             "github": "https://github.com/Gladiios/oc-p9"
             
         },
@@ -183,19 +168,16 @@
                 "/assets/logo/debugging.svg"
             ],
             "picture": [
-                {"src": "/assets/77events/header.webp"},
-                {"src": "/assets/77events/gallery.webp"},
-                {"src": "/assets/77events/contact-form.webp"},
-                {"src": "/assets/77events/footer.webp"}
+                {"src": "/assets/77events/header.webp", "text":"77 Events"},
+                {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery"},
+                {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm"},
+                {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter"}
             ],
             "background": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
             "id": "77events",
-            "client":"724 Events",
-            "presentation": "The agency wishes to publish the new version of its showcase site. This is a one-page site. The design has been validated, and a first freelance developer started the integration a few weeks ago. Unfortunately, this freelancer had to abandon the project for personal reasons. The site is functional, but some bugs hinder proper use by visitors. 724events therefore called on me to finalize the work.",
-            "goal": "Jean-Baptiste, the marketing director told me about the different bugs in a video meeting. The carousel wasn't working correctly, a white picture was displayed, to change the current slide,the radio button were not usable and the picture were supposed to be displayed from oldest to most recent. In the list of events, some do not display any dates and others do not display the correct ones, the filters weren't working either. Concerning the contact form, no confirmation message were displayed and to finish the picture in the footer was supposed to display the last event, with the date and the category.",
             "github": "https://github.com/Gladiios/oc-p10"
         },
         {
@@ -207,22 +189,17 @@
                 "/assets/logo/react.svg","/assets/logo/redux.svg", "/assets/logo/sass.svg", "/assets/logo/mongodb.svg", "/assets/logo/responsive.svg", "/assets/logo/swagger.svg"
             ],
             "picture": [
-                {"src": "/assets/argentbank/header.webp"},
-                {"src": "/assets/argentbank/login.webp"},
-                {"src": "/assets/argentbank/account.webp"},
-                {"src": "/assets/argentbank/form.webp"},
-                {"src": "/assets/argentbank/responsive-header.webp"},
-                {"src": "/assets/argentbank/responsive-account.webp"},
-                {"src": "/assets/argentbank/store.webp"}
+                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank"},
+                {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin"},
+                {"src": "/assets/argentbank/account.webp", "text":"argentbankAccount"},
+                {"src": "/assets/argentbank/form.webp", "text":"argentbankForm"},
+                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore"}
             ],
             "background": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",
             "type": "School Project",
             "date": "2023",
             "id": "argentbank",
-            "client":"Argent Bank",
-            "presentation": "As a front-end developer in Argent Bank i had to create the user dashboard while using React and Redux to manage the state",
-            "goal": "With a model given to me, i had to recreate the static HTML in react. I first started by creating the landing page with reusable components for the “features” section. After that I created the login system, i also managed the logout. To finish, in the user profile page, i added a form who allow the user to change only his username. All of these user actions were managed with the Redux Store. For phase 2 of the project, I had to propose endpoints in the form of a swagger, each endpoint had to have: the HTTP method, the route, the description of what the endpoint corresponds to and the different responses with the corresponding response code",
             "github": "https://github.com/Gladiios/oc-p11"
         }
         

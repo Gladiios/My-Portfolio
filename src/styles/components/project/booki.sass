@@ -1,0 +1,42 @@
+.project-booki-div1,.project-booki-div2,.project-booki-div3,.project-booki-div4
+    display: flex
+    justify-content: center
+    margin-left: auto
+    margin-right: auto
+
+.project-booki-div1, .project-booki-div2, .project-booki-div3, .project-booki-div4
+    display: flex
+    flex-direction: column
+
+    & p
+        display: flex
+        justify-content: center
+        margin: 2rem
+
+    & img
+        width: 70%
+        margin-right: auto
+        margin-left: auto
+
+.project-booki-div1 p
+    font-size: 4rem
+
+.project-booki-div2 p, .project-booki-div3 p, .project-booki-div4 p
+    font-size: 2rem
+    width: 70%
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+
+.booki .project-container
+    display: flex
+    flex-wrap: wrap
+
+    & > div:nth-child(n+5):nth-child(-n+8)
+        display: flex
+        align-content: center
+        justify-content: center
+        flex: 0 0 calc(50% - 10px)
+
+        & img
+            height: 90%
