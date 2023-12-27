@@ -1,19 +1,40 @@
-.nina-carducci .project-container
+.nina-carducci .project-container div
     display: flex
+    justify-content: center
+    margin-left: auto
+    margin-right: auto
     flex-direction: column
 
-    & div
+    & p
         display: flex
-        align-items: center
-        flex-direction: column
+        margin: 2rem
+        justify-content: center
+        text-align: center
+
+    & img
+        width: 100%
         margin-right: auto
         margin-left: auto
-        font-size: 2rem
 
-        & img
-            width: 70%
-            display: flex
-            justify-content: center
-
-.project-nina-carducci-div1
+.project-nina-carducci-div1 p
     font-size: 4rem !important
+
+.project-nina-carducci-div3, .project-nina-carducci-div5, .project-nina-carducci-div10
+    margin-bottom: 2rem
+
+@media (max-width: 650px)
+    .project-nina-carducci-div1 p
+        font-size: 2.5rem !important
+
+@media (max-width: 600px)
+    .nina-carducci .project-container div img
+        width: 95%
+        border-radius: 10px
+
+@media (max-width: 600px)
+    .nina-carducci .return-arrow
+        top: calc( var(--padding) * 2.1 )
+
+@media (max-width: 350px)
+    .project-nina-carducci-div1 p
+        font-size: 2rem !important

@@ -7,13 +7,14 @@ import Theme from "../components/Theme";
 import Providers from "../app/Providers";
 import "../styles/global.sass";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import ThemeLanguage from "@/components/ThemeLanguage";
 
 export default function Index() {
   return (
     <Providers>
       <div id="page">
         <div id="background"></div>
-        <Theme />
+        <ThemeLanguage />
         <Frame />
         <header>
           <Header />

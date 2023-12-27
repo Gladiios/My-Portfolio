@@ -1,8 +1,8 @@
 .project-ohmyfood-div1,.project-ohmyfood-div2,.project-ohmyfood-div3,.project-ohmyfood-div4
     display: flex
-    justify-content: center
     margin-left: auto
     margin-right: auto
+    width: 100%
 
 .project-ohmyfood-div1, .project-ohmyfood-div2, .project-ohmyfood-div3, .project-ohmyfood-div4
     display: flex
@@ -12,17 +12,15 @@
         display: flex
         margin: 2rem
         justify-content: center
-        margin-left: 10rem
-        margin-right: 10rem
         text-align: center
 
     & img
-        width: 70%
+        width: 100%
         margin-right: auto
         margin-left: auto
 
 .project-ohmyfood-div1 p
-    font-size: 4rem
+    font-size: 4rem !important
 
 .ohmyfood .project-container
     display: flex
@@ -38,3 +36,29 @@
             width: 50%
             height: 90%
             margin: auto
+
+@media (max-width: 600px)
+    .project-ohmyfood-div1 p
+        font-size: 2.5rem !important
+    .ohmyfood .project-container div img
+        width: 95%
+        border-radius: 10px
+    .ohmyfood .project-container
+        display: flex
+        flex-wrap: wrap
+
+        & > div:nth-child(n+4):nth-child(-n+8)
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-left: auto
+            margin-right: auto
+            width: 100%
+            flex: none
+
+            & img
+                height: 90%
+
+@media (max-width: 350px)
+    .project-ohmyfood-div1 p
+        font-size: 2rem !important

@@ -14,8 +14,27 @@ const Timeline = () => {
 
   const handleNodeClick = (project) => {
     setSelectedProject(project.title);
+
+    const removeProjectOutAnimation = document.querySelectorAll(
+      ".project-out-animation, .header-in, .frame_top_left, .frame_bottom_right"
+    );
+
+    removeProjectOutAnimation.forEach((el) => {
+      if (el.classList.contains("project-out-animation")) {
+        el.classList.remove("project-out-animation");
+      }
+      if (el.classList.contains("header-in")) {
+        el.classList.remove("header-in");
+      }
+      if (el.classList.contains("frame_top_left")) {
+        el.classList.remove("frame_top_left");
+      }
+      if (el.classList.contains("frame_bottom_right")) {
+        el.classList.remove("frame_bottom_right");
+      }
+    });
     const leftOutAnimation = document.querySelectorAll(
-      "header, .frame_line-top, .frame_line-left, .theme"
+      "header, .frame_line-top, .frame_line-left, .theme-language"
     );
     leftOutAnimation.forEach((el) => {
       el.classList.add("frame_top_left-none");

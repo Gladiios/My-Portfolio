@@ -7,13 +7,14 @@ import Theme from "../components/Theme";
 import AboutMe from "../components/AboutMe";
 import Providers from "../app/Providers";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import ThemeLanguage from "@/components/ThemeLanguage";
 
 export default function About() {
   return (
     <Providers>
       <div id="page">
         <div id="background"></div>
-        <Theme />
+        <ThemeLanguage />
         <Frame />
         <header>
           <Header />

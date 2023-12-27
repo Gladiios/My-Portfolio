@@ -1,7 +1,7 @@
 .timeline
     position: absolute
-    right: calc(var(--padding) * 3)
-    top: calc(var(--padding) * 3)
+    right: calc(var(--padding) * 2)
+    top: calc(var(--padding) * 5)
     animation: rightToLeft .5s ease-in-out
     animation-delay: 1.3s
     animation-fill-mode: forwards
@@ -26,7 +26,7 @@
 
     &-circle
         z-index: 1
-        background-color: #fff
+        background-color: (var(--circle-color))
         border: 2px solid (var(--node-border-color))
         border-radius: 50%
         width: 20px
@@ -40,12 +40,12 @@
         top: 100%
         width: 2px
         height: 60px
-        background-color: #ddd
+        background-color: (var(--circle-color))
         z-index: -1
         transform: translateX(-50%) translateY(0)
 
     &-circle.selected
-        background-color: #424242
+        background-color: (var(--circle-selected-color))
 
     &:last-of-type::after
         display: none
@@ -91,3 +91,43 @@
 
 .timeline.slide-out
     animation: slideOut 1s forwards
+
+@media (max-width: 1625px)
+    .timeline
+        top: calc(var(--padding) * 3)
+
+@media (max-width: 800px)
+    .timeline
+        top: calc(var(--padding) * 3.8)
+
+@media (max-width: 650px)
+    .timeline
+        top: calc(var(--padding) * 4)
+
+@media (max-width: 545px)
+    .timeline
+        top: calc(var(--padding) * 5)
+
+@media (max-width: 450px)
+    .timeline
+        top: calc(var(--padding) * 7.8)
+        right: calc(var(--padding) * 1.5)
+    .bottom-year
+        margin-bottom: 4rem
+    .project-node
+        margin-bottom: 60px
+
+        &-text
+            font-size: 18px
+
+        &-circle
+            width: 16px
+            height: 16px
+
+    .project-node-skills
+        right: calc(100% + 10px)
+
+        & img
+            width: 15px
+            height: 15px
+            margin: 5px

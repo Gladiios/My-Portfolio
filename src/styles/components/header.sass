@@ -13,6 +13,9 @@ header
     font-weight: 300
     animation: topToBottom .3s ease-in-out
 
+.name h1 span
+    color: (var(--logo-background-color))
+
 .name h2
     font-size: 16px
     font-weight: 100
@@ -22,15 +25,19 @@ header
     animation-fill-mode: forwards
 
 .glow
-    color: #fff
+    color: (var(--logo-background-color))
     text-align: center
     -webkit-animation: glow 1s ease-in-out infinite alternate
     -moz-animation: glow 1s ease-in-out infinite alternate
     animation: glow 1s ease-in-out infinite alternate
 
-@keyframes glow
-    from
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff
+.header-in
+    animation: headerIn 2s forwards
 
-    to
-        text-shadow: 0 0 20px #fff, 0 0 30px #ffffff
+@media (max-width: 375px)
+    .name
+        display: none
+    .nav ul
+        display: flex
+        flex-wrap: wrap
+        gap: 8px

@@ -7,13 +7,14 @@ import Theme from "../components/Theme";
 import React from "react";
 import ContactForm from "../components/ContactForm";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import ThemeLanguage from "@/components/ThemeLanguage";
 
 export default function Contact() {
   return (
     <Providers>
       <div id="page">
         <div id="background"></div>
-        <Theme />
+        <ThemeLanguage />
         <Frame />
         <header>
           <Header />

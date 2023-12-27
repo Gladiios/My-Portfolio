@@ -59,7 +59,7 @@
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/javascript.svg", "/assets/logo/nodejs.svg"
             ],
             "picture": [
-                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel | Portfolio"},
+                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel"},
                 {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal"},
                 {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters"},
                 {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin"},
@@ -140,7 +140,7 @@
                 "/assets/logo/optimization.svg","/assets/logo/seo.svg", "/assets/logo/wave.svg", "/assets/logo/accessibility.svg", "/assets/logo/lighthouse.svg"
             ],
             "picture": [
-                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci | Portfolio"},
+                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci"},
                 {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery"},
                 {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase"},
                 {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":""},
@@ -177,7 +177,7 @@
             "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
-            "id": "77events",
+            "id": "septseptevents",
             "github": "https://github.com/Gladiios/oc-p10"
         },
         {
@@ -189,11 +189,12 @@
                 "/assets/logo/react.svg","/assets/logo/redux.svg", "/assets/logo/sass.svg", "/assets/logo/mongodb.svg", "/assets/logo/responsive.svg", "/assets/logo/swagger.svg"
             ],
             "picture": [
-                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank"},
+                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount"},
                 {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin"},
-                {"src": "/assets/argentbank/account.webp", "text":"argentbankAccount"},
+                {"src": "/assets/argentbank/account.webp", "text":""},
                 {"src": "/assets/argentbank/form.webp", "text":"argentbankForm"},
-                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore"}
+                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore"},
+                {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter"}
             ],
             "background": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",

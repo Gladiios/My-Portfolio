@@ -6,12 +6,16 @@
         display: flex
         align-items: center
         flex-direction: column
-        margin-right: auto
-        margin-left: auto
         font-size: 2rem
 
         & img
-            width: 90%
+            width: 100%
+
+.argentbank div p
+    margin: 2rem
+    display: flex
+    justify-content: center
+    text-align: center
 
 .project-argentbank-div2
     margin-right: 4.8rem !important
@@ -27,8 +31,61 @@
     & img
         width: 60% !important
 
-.project-argentbank-div1
-    font-size: 4rem !important
-
 .project-argentbank-div5 img
     width: 60% !important
+
+.project-argentbank-div6 img
+    width: 60% !important
+
+.project-argentbank-div1 p:nth-child(1)
+    font-size: 4rem
+    margin-bottom: 2rem
+
+.project-argentbank-div3
+    margin: 2rem
+
+.project-argentbank-div6
+    margin-bottom: 2rem
+
+@media (max-width: 900px)
+    .project-argentbank-div2 , .project-argentbank-div4
+        display: contents !important
+
+        & img
+            width: 95% !important
+            margin-right: auto
+            margin-left: auto
+
+    .project-argentbank-div4 img
+        width: 70% !important
+
+    .project-argentbank-div5 img, .project-argentbank-div6 img
+        width: 100% !important
+
+@media (max-width: 650px)
+    .argentbank project-container div
+        margin: 1rem
+
+    .project-argentbank-div1 p:nth-child(1)
+        font-size: 2.5rem
+
+@media (max-width: 600px)
+    .argentbank .project-container div img
+        width: 95%
+        border-radius: 10px
+
+    .project-argentbank-div5 img, .project-argentbank-div6 img
+        width: 95% !important
+
+    .argentbank .return-arrow
+        top: calc( var(--padding) * 2 )
+
+@media (max-width: 550px)
+    .argentbank .return-arrow
+        top: calc( var(--padding) * 2.3 )
+
+@media (max-width: 350px)
+    .project-argentbank-div1 p:nth-child(1)
+        font-size: 2rem !important
+    .argentbank .return-arrow
+        top: calc( var(--padding) * 2.1 )

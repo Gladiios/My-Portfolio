@@ -32,7 +32,9 @@
     --skills-text-color: white
     --logo-background-color: #444444
     --logo-color: black
-    --node-border-color: #121212
+    --node-border-color: #424242
+    --circle-selected-color: white
+    --circle-color: #424242
 
 [data-theme="dark"] 
     --frame-line-color: white
@@ -49,6 +51,8 @@
     --logo-background-color: white
     --logo-color: white
     --node-border-color: white
+    --circle-selected-color: #424242
+    --circle-color: white
 
 #page
     position: fixed
@@ -56,7 +60,6 @@
     top: 0
     width: 100%
     height: 100%
-    overflow: hidden
 
 #background
     position: fixed
@@ -66,7 +69,6 @@
     top: var(--padding)
     bottom: var(--padding)
     pointer-events: none
-    overflow: hidden
 
 html, body
     padding: 0
@@ -119,8 +121,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li,label
     height: 1px
     width: 20%
 
+// Disappear aniimation
 .frame_top_left-none
     animation: topFrameOut 2s forwards
 
 .frame_bottom_right-none
     animation: bottomFrameOut 2s forwards
+
+// Appear Animation
+.frame_top_left
+    animation: topFrameIn 2s forwards
+
+.frame_bottom_right
+    animation: bottomFrameIn 2s forwards

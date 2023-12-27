@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import "../styles/global.sass";
 import { useTranslation } from "next-i18next";
+import { FiMoon } from "react-icons/fi";
+import { BsSun } from "react-icons/bs";
 
 const Theme = () => {
-  const { t } = useTranslation("common");
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -17,32 +18,17 @@ const Theme = () => {
     return null;
   }
 
-  const handleThemeChange = (newTheme) => {
-    setTheme(newTheme);
+  const handleThemeChange = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
-    <div className="theme " id="theme">
-      <div>
-        <input
-          className="checkbox-custom"
-          type="checkbox"
-          id="dark-theme"
-          checked={theme === "dark"}
-          onChange={() => handleThemeChange("dark")}
-        />
-        <label htmlFor="dark-theme">{t("theme-dark")}</label>
-      </div>
-      <div>
-        <input
-          className="checkbox-custom"
-          type="checkbox"
-          id="light-theme"
-          checked={theme === "light"}
-          onChange={() => handleThemeChange("light")}
-        />
-        <label htmlFor="light-theme">{t("theme-light")}</label>
-      </div>
+    <div className="theme" id="theme" onClick={handleThemeChange}>
+      {theme === "dark" ? (
+        <BsSun className="icon-size" />
+      ) : (
+        <FiMoon className="icon-size" />
+      )}
     </div>
   );
 };

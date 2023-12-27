@@ -8,13 +8,14 @@ import React from "react";
 import Timeline from "../components/Timeline";
 import ProjectDisplay from "../components/ProjectDisplay";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import ThemeLanguage from "@/components/ThemeLanguage";
 
 export default function Project() {
   return (
     <Providers>
       <div id="page">
         <div id="background"></div>
-        <Theme />
+        <ThemeLanguage />
         <Frame />
         <header>
           <Header />

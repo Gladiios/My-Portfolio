@@ -10,6 +10,13 @@
         visibility: visible
         transform: translateY(0)
 
+@keyframes glow
+    from
+        text-shadow: 0 0 10px var(--skills-background-color), 0 0 20px var(--skills-background-color), 0 0 30px var(--skills-background-color)
+
+    to
+        text-shadow: 0 0 20px var(--skills-background-color), 0 0 30px var(--skills-background-color)
+
 @keyframes bottomToTop
     0%
         opacity: 0
@@ -33,6 +40,15 @@
         opacity: 1
         visibility: visible
         transform: translateX(0)
+
+//  Animation about displaying project
+@keyframes fadeAppear
+    0%
+        opacity: 0
+        visibility: hidden
+    100%
+        opacity: 1
+        visibility: visible
 
 @keyframes slideOut
     0%
@@ -65,3 +81,80 @@
         opacity: 0
         visibility: hidden
         right: -100%
+
+// Animation about making project disappear
+
+@keyframes fadeDisappear
+    0%
+        opacity: 1
+        visibility: visible
+    100%
+        opacity: 0
+        visibility: hidden
+
+@keyframes topFrameIn
+    0%
+        opacity: 0
+        visibility: hidden
+        left: -100%
+    100%
+        opacity: 1
+        visibility: visible
+        left: 0
+
+@keyframes bottomFrameIn
+    0%
+        opacity: 0
+        visibility: hidden
+        right: -100%
+    100%
+        opacity: 1
+        visibility: visible
+        right: 0
+
+@keyframes headerIn
+    0%
+        opacity: 0
+        left: -100%
+
+    100%
+        opacity: 1
+        left: calc(var(--padding) * 2)
+
+@keyframes themeIn
+    0%
+        opacity: 0
+        left: -100%
+
+    100%
+        opacity: 1
+        left: calc(var(--padding) - 30px)
+
+@keyframes themeIn800
+    0%
+        opacity: 0
+        left: -100%
+
+    100%
+        opacity: 1
+        left: calc(var(--padding) * 6)
+
+@keyframes themeIn630
+    0%
+        opacity: 0
+        left: -100%
+
+    100%
+        opacity: 1
+        left: calc(var(--padding) * 6)
+        top: -0.25%
+
+@keyframes themeIn345
+    0%
+        opacity: 0
+        left: -100%
+
+    100%
+        opacity: 1
+        left: calc(var(--padding) * 4)
+        top: -0.25%

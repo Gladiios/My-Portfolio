@@ -1,28 +1,19 @@
-.theme
+.theme-language
     display: flex
-    gap: 5px
+    flex-direction: column
+    align-items: center
     position: fixed
-    top: 40%
-    left: calc( var(--padding-theme) )
-    rotate: -90deg
-    animation: topToBottom .5s ease-in-out
-    animation-delay: 1s
-    animation-fill-mode: forwards
-    opacity: 0
-    z-index: 90
-
-.theme div
-    display: flex
-
-.checkbox-custom
-    appearance: none
-    -webkit-appearance: none
-    -moz-appearance: none
-    width: 15px
-    height: 15px
-    border: 1px solid #dcdcdc
-    background-color: transparent
+    top: 35%
+    left: calc(var(--padding) - 30px)
+    z-index: 99
     cursor: pointer
+    padding: 10px
+
+.icon-size
+    font-size: 25px
+
+.language-switcher
+    font-family: Plus Jakarta Sans
 
 /* Style lorsque le thème sombre est actif et la checkbox du thème sombre est cochée */
 .theme input[type="checkbox"]#dark-theme:checked
@@ -31,3 +22,71 @@
 /* Style lorsque le thème clair est actif et la checkbox du thème clair est cochée */
 .theme input[type="checkbox"]#light-theme:checked
     background-color: #121212
+
+.theme-language-top , .theme-language-bottom
+    width: 30px
+    height: 30px
+    display: flex
+    justify-content: center
+    align-items: center
+    border: 1px solid (var(--theme-checkbox-background))
+    border-radius: 12px 12px 0 0
+    padding: 5px
+
+.theme-language-bottom
+    border-radius: 0 0 12px 12px
+
+.theme-in
+    animation: themeIn 2s forwards
+
+@media (max-width: 800px)
+    .theme
+        display: flex
+
+    .theme-language
+        left: calc(var(--padding) - 30px)
+
+    .theme-language
+        display: flex
+        flex-direction: row
+        align-items: center
+        position: fixed
+        top: 1%
+        left: calc(var(--padding) * 6)
+        z-index: 99
+        cursor: pointer
+        padding: 10px
+
+    .theme-language-top , .theme-language-bottom
+        width: 20px
+        height: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        border: 1px solid (var(--theme-checkbox-background))
+        padding: 5px
+
+    .theme-language-bottom
+        border-radius: 0 12px 12px 0
+
+    .theme-language-top
+        border-radius: 12px 0 0 12px
+
+    .icon-size
+        font-size: 15px
+
+    .theme-in
+        animation: themeIn800 2s forwards
+
+@media (max-width: 630px)
+    .theme-language
+        top: -0.25%
+
+    .theme-in
+        animation: themeIn630 2s forwards
+
+@media (max-width: 345px)
+    .theme-in
+        animation: themeIn345 2s forwards
+    .theme-language
+        left: calc(var(--padding) * 4)

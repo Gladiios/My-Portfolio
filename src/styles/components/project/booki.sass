@@ -14,16 +14,15 @@
         margin: 2rem
 
     & img
-        width: 70%
+        width: 100%
         margin-right: auto
         margin-left: auto
 
 .project-booki-div1 p
-    font-size: 4rem
+    font-size: 4rem !important
 
 .project-booki-div2 p, .project-booki-div3 p, .project-booki-div4 p
-    font-size: 2rem
-    width: 70%
+    width: 90%
     text-align: center
     margin-left: auto
     margin-right: auto
@@ -34,9 +33,43 @@
 
     & > div:nth-child(n+5):nth-child(-n+8)
         display: flex
-        align-content: center
         justify-content: center
         flex: 0 0 calc(50% - 10px)
 
         & img
             height: 90%
+
+@media (max-width: 600px)
+    .project-container
+        width: 100%
+
+    .booki .project-container div img
+        width: 95%
+        border-radius: 10px
+
+    .project-booki-div1 p
+        font-size: 2.5rem !important
+
+    .project-booki-div1, .project-booki-div2, .project-booki-div3, .project-booki-div4
+        & p
+            margin: 1rem
+
+    .booki .project-container
+        display: flex
+        flex-wrap: wrap
+
+        & > div:nth-child(n+5):nth-child(-n+8)
+            display: flex
+            justify-content: center
+            align-items: center
+            margin-left: auto
+            margin-right: auto
+            width: 80%
+            flex: none
+
+            & img
+                height: 90%
+
+@media (max-width: 350px)
+    .project-booki-div1 p
+        font-size: 2rem !important
