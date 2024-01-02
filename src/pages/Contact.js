@@ -12,7 +12,7 @@ import ThemeLanguage from "@/components/ThemeLanguage";
 export default function Contact() {
   return (
     <Providers>
-      <div id="page">
+      <div id="page" className="contact-page">
         <div id="background"></div>
         <ThemeLanguage />
         <Frame />

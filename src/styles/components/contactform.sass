@@ -2,6 +2,9 @@
     display: flex
     flex-direction: column
 
+.first-last-name, .email-message div
+    margin-bottom: 15px
+
 .contact-form
     display: flex
     flex-direction: column
@@ -31,3 +34,37 @@
     z-index: 10
     right: calc(var(--padding) * 2)
     bottom: calc(var(--padding) * 2)
+
+.submit-button
+    width: 30%
+    margin-right: auto
+    margin-left: auto
+
+    & button
+        padding: 8px 15px 8px 15px
+        border: none
+        border-radius: 20px
+
+input, textarea
+    border-radius: 5px
+    border: none
+    padding-left: 10px
+    background-color: (var(--contact-form-color))
+
+.form-success
+    display: flex
+    justify-content: center
+    margin-top: 10px
+
+@media (max-width: 375px)
+    .contact-page .name
+        display: block
+    .contact-form input, .contact-form textarea
+        width: 16rem
+    .bottom-right-form
+        right: calc(var(--padding) * 1.5)
+        bottom: calc(var(--padding) * 3)
+
+@media (max-width: 310px)
+    .contact-form input, .contact-form textarea
+        width: 14rem

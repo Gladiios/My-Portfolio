@@ -1,68 +1,91 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useTranslation } from "next-i18next";
+import { useForm, ValidationError } from "@formspree/react";
 
 const ContactForm = () => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const { t } = useTranslation("common");
+  const [state, handleSubmit] = useForm("xrgngqrw");
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-  };
+  useEffect(() => {
+    if (state.succeeded) {
+      setShowSuccessMessage(true);
+      setTimeout(() => setShowSuccessMessage(false), 5000); // Cache le message après 5 secondes
+    }
+  }, [state.succeeded]);
+
+  // Réinitialise le formulaire après soumission
+  useEffect(() => {
+    if (state.succeeded) {
+      document.getElementById("contact-form").reset();
+    }
+  }, [state.succeeded]);
 
   return (
-    <form
-      className="bottom-right-form contact-form bottom-right-animation"
-      onSubmit={handleSubmit}
-    >
-      <div className="first-last-name">
-        <div>
-          <label htmlFor="first-name">First Name</label>
-          <input
-            type="text"
-            id="first-name"
-            value={firstName}
-            required
-            onChange={(e) => setFirstName(e.target.value)}
-          />
+    <div className="contact">
+      <form
+        id="contact-form"
+        className="bottom-right-form contact-form bottom-right-animation"
+        onSubmit={handleSubmit}
+      >
+        <div className="first-last-name">
+          <div>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder={t("contactFormName")}
+              required
+            />
+            <ValidationError
+              prefix="first-name"
+              field="text"
+              errors={state.errors}
+            />
+          </div>
         </div>
-        <div>
-          <label htmlFor="last-name">Last Name</label>
-          <input
-            type="text"
-            id="last-name"
-            value={lastName}
-            required
-            onChange={(e) => setLastName(e.target.value)}
-          />
+        <div className="email-message">
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+          </div>
+          <div>
+            <textarea
+              id="message"
+              name="message"
+              rows={4}
+              placeholder="Message"
+              required
+            />
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
+          </div>
         </div>
-      </div>
-
-      <div className="email-message">
-        <div>
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            required
-            onChange={(e) => setEmail(e.target.value)}
-          />
+        <div className="submit-button">
+          <button type="submit" disabled={state.submitting}>
+            {t("contactFormSubmit")}
+          </button>
         </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            value={message}
-            required
-            onChange={(e) => setMessage(e.target.value)}
-          ></textarea>
-        </div>
-      </div>
-      <div className="submit-button">
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+        {showSuccessMessage && (
+          <div className="form-success">
+            <p>{t("contactFormSuccess")}</p>
+          </div>
+        )}
+      </form>
+    </div>
   );
 };
 
