@@ -12,7 +12,7 @@ import ThemeLanguage from "@/components/ThemeLanguage";
 export default function Index() {
   return (
     <Providers>
-      <div id="page">
+      <div id="page" className="index">
         <div id="background"></div>
         <ThemeLanguage />
         <Frame />

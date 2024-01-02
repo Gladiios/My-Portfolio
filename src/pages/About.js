@@ -12,7 +12,7 @@ import ThemeLanguage from "@/components/ThemeLanguage";
 export default function About() {
   return (
     <Providers>
-      <div id="page">
+      <div id="page" className="about-page">
         <div id="background"></div>
         <ThemeLanguage />
         <Frame />
