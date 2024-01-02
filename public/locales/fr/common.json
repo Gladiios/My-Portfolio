@@ -49,6 +49,9 @@
         "argentbankAccount": "Avec un modèle qui m'a été donné, j'ai dû recréer le HTML statique en React. J'ai commencé par créer la page d'accueil avec des composants réutilisables pour la section des 'fonctionnalités'. Après cela, j'ai créé le système de connexion, et j'ai également géré la déconnexion.",
         "argentbankForm": "Pour finir, dans la page de profil de l'utilisateur, j'ai ajouté un formulaire qui permet à l'utilisateur de changer uniquement son nom d'utilisateur.",
         "argentbankStore": "Toutes les actions de l'utilisateur sont gérées avec le Redux Store comme vous pouvez le voir ici.",
-        "argentbankStoreAfter": "Pour la phase 2 du projet, j'ai dû proposer des endpoints sous forme de swagger, chaque endpoints devait avoir : la méthode HTTP, la route, la description de ce à quoi correspond le endpoints et les différentes réponses avec le code de réponse correspondant."
+        "argentbankStoreAfter": "Pour la phase 2 du projet, j'ai dû proposer des endpoints sous forme de swagger, chaque endpoints devait avoir : la méthode HTTP, la route, la description de ce à quoi correspond le endpoints et les différentes réponses avec le code de réponse correspondant.",
         
+        "contactFormName": "Votre Nom",
+        "contactFormSubmit": "Envoyer",
+        "contactFormSuccess": "Le message a été envoyé avec succès !"
 }
