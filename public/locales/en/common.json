@@ -1,14 +1,14 @@
 {   
     "header-h2": "Web Developer",
     "nav-about": "About Me",
-    "nav-project": "Project",
+    "nav-project": "Projects",
 
     "theme-dark": "Dark",
     "theme-light": "Light",
 
-    "homeAbout": "Born in 2000\nin Caen, France.\nFrom pastry chef to\ndelivery guy.\nAfter 7 years of jobs\nthat i don't like\nand multiple tought.\nI decided to learn\nweb development.\nFrom this point,\ni signed up to a\nFront-End developer\nformation on\nOpen Classrooms\nwich last 9 months.",
+    "homeAbout": "Born in 2000\nin Caen, France.\nFrom pastry chef to\ndeveloper.\nAfter 7 years of jobs\nthat i don't like\nand multiple tought.\nI decided to learn\nweb development.\nFrom this point,\ni signed up to a\nFront-End developer\nformation on\nOpen Classrooms\nwich last 9 months.",
 
-    "aboutText":"Hi, i'm Erwan, a Web Developer. Since childhood, i spend most\nof my time in front of a screen, i also like to learn, create and design.\nI've worked as an apprentice pastry chef from 2016 to 2018 at the\nBoulangerie Cherie in Potigny and earned a diploma in this field\nbut i immediately stopped since i weren't passionate enough \nto keep working in this area. After that, in 2019 i worked for something like\n 2 months as a garbage collector,then i worked for 2 years as a order picker at Metaluplast,\n a factory creating sports equipment.As i no longer liked this job, i stopped working at Metaluplast\n and found a job as a delivery guy in june 2021 for DPD and Chronopost,\n i became a manager shortly after being recruited and I managed a team of 5 people.\n Near the end of 2022 i made arrangements with my employer to quit and in january 2023 \nmy contract came to a end.Currently i'm only able to do front-end development,\nbut i intend to learn back-end development in a near future.\nThe Languages and Tools i'm familliar with :",
+    "aboutText":"Hi, i'm Erwan, a Web Developer. Since childhood, i spend most of my time in front of a screen, i also like to learn, create and design. I've worked as an apprentice pastry chef from 2016 to 2018 at the Boulangerie Cherie in Potigny and earned a diploma in this field but i immediately stopped since i weren't passionate enough  to keep working in this area. After that, in 2019 i worked for something like 2 months as a garbage collector,then i worked for 2 years as a order picker at Metaluplast, a factory creating sports equipment.As i no longer liked this job, i stopped working at Metaluplast and found a job as a delivery guy in june 2021 for DPD and Chronopost, i became a manager shortly after being recruited and I managed a team of 5 people. Near the end of 2022 i made arrangements with my employer to quit and in january 2023 my contract came to a end.Currently i'm only able to do front-end development, but i intend to learn back-end development in a near future.\nThe Languages and Tools i'm familliar with :",
 
     "bookiHeader": "A company who wants to develop a website for finding accomodations and activities.",
     "bookiFilters": "Booki is a web project whose aim is to simplify the search for accommodation and activities in the city chosen by the user.",
@@ -18,6 +18,7 @@
     "ohMyFoodIntro": "A restoration startup who want to develop a website wich list gastronomic restaurant menu.",
     "ohMyFoodGoal": "OhMyFood is a project linked to catering, which in addition to classic reservation systems, allows customers to compose the menu of their meals so that they are ready upon their arrival.",
     "ohMyFoodMobile": "The goal was to create the site in mobile first, using HTML and Sass, with some animation like a loading screen, heart filling with hover or click and a checkout validation moving the price of a menu item.",
+    "ohMyFoodMobile2": "Mobile version",
 
     "sophieBluelGoal": "Using an already created backend, I imported dynamically with javascript the project realized by the interior designer, with filters by category. I also created the login page using Json Web Tokens with a redirection on the landing page when the administrator is logged in succesfully. To finish, i implemented a modal on the landing page, allowing the admin to POST or DELETE a work.",
     "sophieBluelFilters":"The functionnal filters.",
@@ -53,6 +54,23 @@
 
     "contactFormName": "Your Name",
     "contactFormSubmit": "Submit",
-    "contactFormSuccess":"Message has been send with success!"
+    "contactFormSuccess":"Message has been send with success!",
 
+    "altBooki": "Screenshot showing the top of the booki page",
+    "altBookiHeader": "Screentshot showing the filters part of the booki page",
+    "altBookiFilters": "Screenshot showing the popular and other accomodations of the booki page",
+    "altBookiPopular": "Screenshot showing the activities of Marseille",
+    "altBookiResponsive1": "Screenshot showing the responsive part of the top of the page, and also the filters",
+    "altBookiResponsive2": "Screenshot showing the responsive popular accomadation ",
+    "altBookiResponsive3": "Screenshot showing the accomodation",
+    "altBookiResponsive4": "Screenshot showing the activities",
+
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": "",
+    "altOhmyfood": ""
 }

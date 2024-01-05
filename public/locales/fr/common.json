@@ -1,14 +1,14 @@
 {   
         "header-h2": "Développeur Web",
         "nav-about": "À propos",
-        "nav-project": "Projet",
+        "nav-project": "Projets",
 
         "theme-dark": "Sombre",
         "theme-light": "Clair",
 
-        "homeAbout": "Né en 2000\nà Caen, France.\nDe pâtissier à livreur.\nAprès 7 ans de métiers\nque je n'aimais pas\net de multiples réflexions.\nJ'ai décidé d'apprendre\nle développement web.\nÀ partir de là,\nje me suis inscrit à une\nformation de développeur\nFront-End sur\nOpen Classrooms\nd'une durée de 9 mois.",
+        "homeAbout": "Né en 2000\nà Caen, France.\nDe pâtissier à développeur.\nAprès 7 ans de métiers\nque je n'aimais pas\net de multiples réflexions.\nJ'ai décidé d'apprendre\nle développement web.\nÀ partir de là,\nje me suis inscrit à une\nformation de développeur\nFront-End sur\nOpen Classrooms\nd'une durée de 9 mois.",
 
-        "aboutText": "Salut, je suis Erwan, un Développeur Web. Depuis l'enfance, je passe la plupart\nde mon temps devant un écran, j'aime aussi apprendre, créer et concevoir.\nJ'ai travaillé comme apprenti pâtissier de 2016 à 2018 à la Boulangerie Cherie à Potigny\n et j'ai obtenu un diplôme dans ce domaine mais j'ai immédiatement arrêté car \nje n'étais pas assez passionné pour continuer à travailler dans ce secteur.\nAprès ça, en 2019, j'ai travaillé environ 2 mois comme éboueur, puis j'ai travaillé pendant\n 2 ans comme préparateur de commandes chez Metaluplast, une usine de matériel de sport.\nComme je ne m'épannouissait plus dans mon travail, j'ai quitté Metaluplast et trouvé un emploi comme\nlivreur en juin 2021 pour DPD et Chronopost, je suis devenu chef d'équipe peu après mon\nrecrutement et j'ai géré une équipe de 5 personnes. Vers la fin de 2022, je me suis arrangé\n avec mon employeur et j'ai démissionné, en janvier 2023 mon contrat s'est terminé.\nActuellement, je suis seulement capable de faire du développement front-end,\n mais j'ai l'intention d'apprendre le développement back-end dans un futur proche.\nLes langages et outils avec lesquels je suis familier :",
+        "aboutText": "Salut, je suis Erwan, un Développeur Web. Depuis l'enfance, je passe la plupart de mon temps devant un écran, j'aime aussi apprendre, créer et concevoir. J'ai travaillé comme apprenti pâtissier de 2016 à 2018 à la Boulangerie Cherie à Potigny  et j'ai obtenu un diplôme dans ce domaine mais j'ai immédiatement arrêté car  je n'étais pas assez passionné pour continuer à travailler dans ce secteur. Après ça, en 2019, j'ai travaillé environ 2 mois comme éboueur, puis j'ai travaillé pendant 2 ans comme préparateur de commandes chez Metaluplast, une usine de matériel de sport. Comme je ne m'épannouissait plus dans mon travail, j'ai quitté Metaluplast et trouvé un emploi comme livreur en juin 2021 pour DPD et Chronopost, je suis devenu chef d'équipe peu après mon recrutement et j'ai géré une équipe de 5 personnes. Vers la fin de 2022, je me suis arrangé avec mon employeur et j'ai démissionné, en janvier 2023 mon contrat s'est terminé. Actuellement, je suis seulement capable de faire du développement front-end, mais j'ai l'intention d'apprendre le développement back-end dans un futur proche.\nLes langages et outils avec lesquels je suis familier :",
 
         "bookiHeader": "Une entreprise qui souhaite développer un site web pour trouver des hébergements et des activités.",
         "bookiFilters": "Booki est un projet web dont le but est de simplifier la recherche d'hébergements et d'activités dans la ville choisie par l'utilisateur.",
@@ -18,10 +18,11 @@
         "ohMyFoodIntro": "Une startup de restauration qui veut développer un site web qui liste les menus des restaurants gastronomiques.",
         "ohMyFoodGoal": "OhMyFood est un projet lié à la restauration, qui en plus des systèmes de réservation classiques, permet aux clients de composer le menu de leurs repas afin qu'ils soient prêts à leur arrivée.",
         "ohMyFoodMobile": "Le but était de créer le site en mobile first, en utilisant HTML et Sass, avec quelques animations comme un écran de chargement, un cœur se remplissant au survol ou au clic et une validation de commande déplaçant le prix d'un article du menu.",
+        "ohMyFoodMobile2": "Version mobile",
 
         "sophieBluelGoal": "En utilisant un backend déjà créé, j'ai importé dynamiquement avec javascript les projets réalisés par le designer d'intérieur, avec des filtres par catégorie. J'ai également créé la page de connexion en utilisant des Jetons Web JSON avec une redirection sur la page d'accueil lorsque l'administrateur est connecté avec succès. Pour finir, j'ai implémenté une modale sur la page d'accueil, permettant à l'admin de POSTER ou SUPPRIMER un travail.",
         "sophieBluelFilters": "Les filtres fonctionnels.",
-        "sophieBluelLogin": "Système d'authentification avec des Jetons Web JSON.",
+        "sophieBluelLogin": "Système d'authentification avec des JSON Web Tokens.",
         "sophieBluelAdmin": "La vue admin lorsque l'utilisateur est connecté.",
         "sophieBluelModal1": "La première fenêtre de la modale, permet à l'utilisateur de supprimer un travail en cliquant sur la poubelle et permet également de naviguer vers la fenêtre d'ajout de travail.",
         "sophieBluelModal2": "Sur la deuxième fenêtre, l'utilisateur peut ajouter un travail en téléchargeant une image de moins de 4mo, il doit également remplir le champ du titre et choisir une catégorie, lorsque ces conditions sont remplies, le bouton de validation change de couleur pour devenir vert.",
