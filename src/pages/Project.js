@@ -9,12 +9,13 @@ import Timeline from "../components/Timeline";
 import ProjectDisplay from "../components/ProjectDisplay";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import ThemeLanguage from "@/components/ThemeLanguage";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Project() {
   return (
     <Providers>
       <div id="page">
-        <div id="background"></div>
+        <AnimatedBackground />
         <ThemeLanguage />
         <Frame />
         <header>

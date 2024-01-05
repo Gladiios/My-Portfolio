@@ -12,7 +12,7 @@ const ProjectImage = ({ picture, projectTitle, index }) => {
         .toLowerCase()}-div${index + 1}`}
     >
       {translatedText && <p>{translatedText}</p>}
-      <img src={picture.src} alt="" />
+      <img src={picture.src} alt={t(picture.alt)} />
       {translatedTextAfter && <p>{translatedTextAfter}</p>}
     </div>
   );

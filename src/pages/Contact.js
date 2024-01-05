@@ -8,12 +8,13 @@ import React from "react";
 import ContactForm from "../components/ContactForm";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import ThemeLanguage from "@/components/ThemeLanguage";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Contact() {
   return (
     <Providers>
       <div id="page" className="contact-page">
-        <div id="background"></div>
+        <AnimatedBackground />
         <ThemeLanguage />
         <Frame />
         <header>

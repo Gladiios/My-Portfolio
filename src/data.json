@@ -9,14 +9,14 @@
                 "/assets/logo/html.svg","/assets/logo/css.svg", "/assets/logo/figma.svg", "/assets/logo/responsive.svg"
             ],
             "picture": [
-                {"src": "/assets/booki/header.webp", "text":"Booki"},
-                {"src": "/assets/booki/filtres.webp", "text":"bookiHeader"},
-                {"src": "/assets/booki/hebergement.webp", "text":"bookiFilters"},
-                {"src": "/assets/booki/activites.webp", "text":"bookiPopular", "textAfter": "bookiActivities"},
-                {"src": "/assets/booki/responsive-header.webp", "text":""},
-                {"src": "/assets/booki/responsive-populaire.webp", "text":""},
-                {"src": "/assets/booki/responsive-hebergement.webp", "text":""},
-                {"src": "/assets/booki/responsive-activités.webp", "text":""}
+                {"src": "/assets/booki/header.webp", "text":"Booki", "alt":"altBooki"},
+                {"src": "/assets/booki/filtres.webp", "text":"bookiHeader", "alt":"altBookiHeader"},
+                {"src": "/assets/booki/hebergement.webp", "text":"bookiFilters", "alt":"altBookiFilters"},
+                {"src": "/assets/booki/activites.webp", "text":"bookiPopular", "textAfter": "bookiActivities", "alt":"altBookiPopular"},
+                {"src": "/assets/booki/responsive-header.webp", "text":"", "alt":"altBookiResponsive1"},
+                {"src": "/assets/booki/responsive-populaire.webp", "text":"", "alt":"altBookiResponsive2"},
+                {"src": "/assets/booki/responsive-hebergement.webp", "text":"", "alt":"altBookiResponsive3"},
+                {"src": "/assets/booki/responsive-activités.webp", "text":"", "alt":"altBookiResponsive4"}
             ],
             "background": "/assets/booki.webp",
             "banner": "/assets/booki/booki.webp",
@@ -34,13 +34,13 @@
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg"
             ],
             "picture": [
-                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood"},
-                {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodIntro"},
-                {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodGoal", "textAfter": "ohMyFoodMobile"},
-                {"src": "/assets/ohmyfood/loader.webp", "text":""},
-                {"src": "/assets/ohmyfood/responsive-header.webp", "text":""},
-                {"src": "/assets/ohmyfood/responsive-card.webp", "text":""},
-                {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":""}
+                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood", "alt":""},
+                {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodIntro", "textAfter": "ohMyFoodGoal", "alt":""},
+                {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodMobile", "textAfter":"ohMyFoodMobile2", "alt":""},
+                {"src": "/assets/ohmyfood/loader.webp", "text":"", "alt":""},
+                {"src": "/assets/ohmyfood/responsive-header.webp", "text":"", "alt":""},
+                {"src": "/assets/ohmyfood/responsive-card.webp", "text":"", "alt":""},
+                {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":"", "alt":""}
             ],
             "background": "/assets/ohmyfood.webp",
             "banner": "/assets/ohmyfood/ohmyfood.webp",
@@ -59,13 +59,13 @@
                 "/assets/logo/html.svg","/assets/logo/sass.svg", "/assets/logo/javascript.svg", "/assets/logo/nodejs.svg"
             ],
             "picture": [
-                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel"},
-                {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal"},
-                {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters"},
-                {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin"},
-                {"src": "/assets/sophiebluel/header-admin.webp", "text":"sophieBluelAdmin"},
-                {"src": "/assets/sophiebluel/modal-1.webp", "text":"sophieBluelModal1"},
-                {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2"}
+                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel", "alt":""},
+                {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal", "alt":""},
+                {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters", "alt":""},
+                {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin", "alt":""},
+                {"src": "/assets/sophiebluel/header-admin.webp", "text":"sophieBluelAdmin", "alt":""},
+                {"src": "/assets/sophiebluel/modal-1.webp", "text":"sophieBluelModal1", "alt":""},
+                {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2", "alt":""}
             ],
             "background": "/assets/sophiebluel.webp",
             "banner": "/assets/sophiebluel/sophiebluel.webp",
@@ -73,38 +73,6 @@
             "date": "2023",
             "id": "sophie-bluel",
             "github": "https://github.com/Gladiios/oc-p6"
-        },
-        {
-            "title": "Menu Maker",
-            "skills": [
-                "Project Management","Kanban","Agile Method","Technical Solutions"
-            ],
-            "logoSkills": [
-                "/assets/logo/agile.svg","/assets/logo/kanban.svg"
-            ],
-            "picture": [
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""},
-                {"src": "/assets/.webp", "text":""}
-            ],
-            "background": "/assets/menumaker.webp",
-            "banner": "/assets/menumaker/menumaker.webp",
-            "type": "School Project",
-            "date": "2023",
-            "id": "menu-maker",
-            "client":"Qwenta",
-            "presentation": "As a front-end developer for the Webgencia agency, i've been given a different task from usual, lead, prepare and plan the site development project. ",
-            "goal": "I had to prepare 3 powerpoints for the client, one for the presentation of my monitoring tool, the other for the planning presentation containing the link to the chosen project management tool and the Kanban board, the last one was for the presentation of my technical solution. I also had to write a technical specification documents wich helped me to create the presentation of the technical solution.",
-            "github": ""
         },
         {
             "title": "Kasa",
@@ -115,14 +83,14 @@
                 "/assets/logo/react.svg","/assets/logo/sass.svg", "/assets/logo/responsive.svg", "/assets/logo/figma.svg"
             ],
             "picture": [
-                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa"},
-                {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1"},
-                {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2"},
-                {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel"},
-                {"src": "/assets/kasa/info.webp", "text":"kasaInfo", "textAfter":"kasaInfoAfter"},
-                {"src": "/assets/kasa/responsive-header.webp", "text":""},
-                {"src": "/assets/kasa/responsive-about-header.webp", "text":""},
-                {"src": "/assets/kasa/responsive-info.webp", "text":""}
+                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa", "alt":""},
+                {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1", "alt":""},
+                {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2", "alt":""},
+                {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel", "alt":""},
+                {"src": "/assets/kasa/info.webp", "text":"kasaInfo", "textAfter":"kasaInfoAfter", "alt":""},
+                {"src": "/assets/kasa/responsive-header.webp", "text":"", "alt":""},
+                {"src": "/assets/kasa/responsive-about-header.webp", "text":"", "alt":""},
+                {"src": "/assets/kasa/responsive-info.webp", "text":"", "alt":""}
             ],
             "background": "/assets/Kasa.webp",
             "banner": "/assets/kasa/kasa.webp",
@@ -140,16 +108,16 @@
                 "/assets/logo/optimization.svg","/assets/logo/seo.svg", "/assets/logo/wave.svg", "/assets/logo/accessibility.svg", "/assets/logo/lighthouse.svg"
             ],
             "picture": [
-                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci"},
-                {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery"},
-                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase"},
-                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":""},
-                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp", "text":"ninaCarducciLighthouseOpti"},
-                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp", "text":""},
-                {"src": "/assets/ninacarducci/keywords.webp", "text":"ninaCarducciKeywords"},
-                {"src": "/assets/ninacarducci/meta-fb.webp", "text":"ninaCarducciMeta"},
-                {"src": "/assets/ninacarducci/rich-snippet.webp", "text":"ninaCarducciSnippet"},
-                {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave"}
+                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci", "alt":""},
+                {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery", "alt":""},
+                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase", "alt":""},
+                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":"", "alt":""},
+                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp", "text":"ninaCarducciLighthouseOpti", "alt":""},
+                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp", "text":"", "alt":""},
+                {"src": "/assets/ninacarducci/keywords.webp", "text":"ninaCarducciKeywords", "alt":""},
+                {"src": "/assets/ninacarducci/meta-fb.webp", "text":"ninaCarducciMeta", "alt":""},
+                {"src": "/assets/ninacarducci/rich-snippet.webp", "text":"ninaCarducciSnippet", "alt":""},
+                {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave", "alt":""}
             ],
             "background": "/assets/ninacarducci.webp",
             "banner": "/assets/banner/ninacarducci.jpg",
@@ -168,10 +136,10 @@
                 "/assets/logo/debugging.svg"
             ],
             "picture": [
-                {"src": "/assets/77events/header.webp", "text":"77 Events"},
-                {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery"},
-                {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm"},
-                {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter"}
+                {"src": "/assets/77events/header.webp", "text":"77 Events", "alt":""},
+                {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery", "alt":""},
+                {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm", "alt":""},
+                {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter", "alt":""}
             ],
             "background": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
@@ -189,12 +157,12 @@
                 "/assets/logo/react.svg","/assets/logo/redux.svg", "/assets/logo/sass.svg", "/assets/logo/mongodb.svg", "/assets/logo/responsive.svg", "/assets/logo/swagger.svg"
             ],
             "picture": [
-                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount"},
-                {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin"},
+                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount", "alt":""},
+                {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin", "alt":""},
                 {"src": "/assets/argentbank/account.webp", "text":""},
-                {"src": "/assets/argentbank/form.webp", "text":"argentbankForm"},
-                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore"},
-                {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter"}
+                {"src": "/assets/argentbank/form.webp", "text":"argentbankForm", "alt":""},
+                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore", "alt":""},
+                {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter", "alt":""}
             ],
             "background": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",

@@ -8,12 +8,13 @@ import AboutMe from "../components/AboutMe";
 import Providers from "../app/Providers";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import ThemeLanguage from "@/components/ThemeLanguage";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function About() {
   return (
     <Providers>
       <div id="page" className="about-page">
-        <div id="background"></div>
+        <AnimatedBackground />
         <ThemeLanguage />
         <Frame />
         <header>

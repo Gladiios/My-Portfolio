@@ -48,6 +48,7 @@ const ProjectDisplay = ({ project }) => {
         <div className="picture-container">
           <img src={project.background} />
         </div>
+        <div className="bg-2"></div>
         <div className="return-arrow">
           <FaArrowRight
             className="return-arrow-size"

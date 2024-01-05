@@ -3,17 +3,17 @@ import Frame from "../components/Frame";
 import Header from "../components/Header";
 import HomeAboutMe from "../components/HomeAboutMe";
 import Nav from "../components/Nav";
-import Theme from "../components/Theme";
 import Providers from "../app/Providers";
 import "../styles/global.sass";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import ThemeLanguage from "@/components/ThemeLanguage";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Index() {
   return (
     <Providers>
       <div id="page" className="index">
-        <div id="background"></div>
+        <AnimatedBackground />
         <ThemeLanguage />
         <Frame />
         <header>
