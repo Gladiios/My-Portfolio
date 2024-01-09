@@ -25,13 +25,17 @@ const ProjectNode = ({ project, isSelected, onNodeClick, index }) => {
       )}
       <div className="project-node-skills">
         {project.logoSkills.map((logo, index) => (
-          <img
-            className="project-skill"
-            key={index}
-            src={logo}
-            alt={project.logoSkills}
-            style={logoStyle}
-          />
+          <div className="project-skill-container" key={index}>
+            <div className="tooltip">
+              <img
+                className="project-skill"
+                src={logo.path}
+                alt={project.logoSkills}
+                style={logoStyle}
+              />
+              <span className="tooltiptext">{logo.logoName}</span>
+            </div>
+          </div>
         ))}
       </div>
     </div>

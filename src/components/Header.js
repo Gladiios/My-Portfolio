@@ -8,7 +8,7 @@ const Header = () => {
     <div className="name">
       <h1>Erwan Marie</h1>
       <h2>
-        <span className="glow">{t("header-h2")}</span>
+        <span>{t("header-h2")}</span>
       </h2>
     </div>
   );

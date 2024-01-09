@@ -9,7 +9,7 @@ const AboutMe_Logo = () => {
   return (
     <div className="logo-div">
       <Image
-        className="bash"
+        className="tooltip"
         src="/assets/logo/bash.svg"
         alt="logo bash"
         width={30}
@@ -17,6 +17,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/css.svg"
         alt="logo css"
         width={30}
@@ -24,6 +25,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/figma.svg"
         alt="logo figma"
         width={30}
@@ -31,6 +33,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/git.svg"
         alt="logo git"
         width={30}
@@ -38,6 +41,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/html.svg"
         alt="logo html"
         width={30}
@@ -45,6 +49,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/javascript.svg"
         alt="logo javascript"
         width={30}
@@ -52,6 +57,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/next.svg"
         alt="logo nextjs"
         width={30}
@@ -59,6 +65,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/react.svg"
         alt="logo react"
         width={30}
@@ -66,6 +73,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/redux.svg"
         alt="logo redux"
         width={30}
@@ -73,6 +81,7 @@ const AboutMe_Logo = () => {
         style={logoStyle}
       ></Image>
       <Image
+        className="tooltip"
         src="/assets/logo/sass.svg"
         alt="logo sass"
         width={30}

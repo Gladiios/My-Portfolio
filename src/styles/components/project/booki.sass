@@ -14,7 +14,7 @@
         margin: 2rem
 
     & img
-        width: 90%
+        width: 80%
         margin-right: auto
         margin-left: auto
 
@@ -39,7 +39,12 @@
         & img
             height: 90%
 
-@media (max-width: 780px)
+@media (max-width: 1400px)
+    .project-booki-div1, .project-booki-div2, .project-booki-div3, .project-booki-div4
+        & img
+            width: 70%
+
+@media (max-width: 1250px)
     .booki .project-container
         display: flex
         flex-wrap: wrap
@@ -56,6 +61,10 @@
             & img
                 height: 90%
 
+@media (max-width: 650px)
+    .project-booki-div1 p
+        font-size: 2.5rem !important
+
 @media (max-width: 600px)
     .project-container
         width: 100%
@@ -63,9 +72,6 @@
     .booki .project-container div img
         width: 95%
         border-radius: 10px
-
-    .project-booki-div1 p
-        font-size: 2.5rem !important
 
     .project-booki-div1, .project-booki-div2, .project-booki-div3, .project-booki-div4
         & p

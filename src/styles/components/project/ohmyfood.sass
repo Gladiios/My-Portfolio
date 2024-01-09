@@ -18,7 +18,7 @@
         width: 60%
 
     & img
-        width: 80%
+        width: 75%
         margin-right: auto
         margin-left: auto
 
@@ -36,16 +36,11 @@
         flex: 0 0 calc(50%)
 
         & img
-            width: 40%
+            width: 50%
             height: 90%
             margin: auto
 
-@media (max-width: 600px)
-    .project-ohmyfood-div1 p
-        font-size: 2.5rem !important
-    .ohmyfood .project-container div img
-        width: 95%
-        border-radius: 10px
+@media (max-width: 1250px)
     .ohmyfood .project-container
         display: flex
         flex-wrap: wrap
@@ -61,8 +56,22 @@
 
             & img
                 height: 90%
-                width: 80%
+                width: 40%
 
+@media (max-width: 650px)
+    .project-ohmyfood-div1 p
+        font-size: 2.5rem !important
+
+@media (max-width: 600px)
+    .ohmyfood .project-container div img
+        width: 95%
+        border-radius: 10px
+
+@media (max-width: 550px)
+    .ohmyfood .project-container
+        & > div:nth-child(n+4):nth-child(-n+8)
+            & img
+                width: 40%
 @media (max-width: 350px)
     .project-ohmyfood-div1 p
         font-size: 2rem !important

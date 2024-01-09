@@ -43,21 +43,19 @@
     .project-kasa-div1 p
         font-size: 2.5rem !important
 
-@media (max-width: 600px)
-    .kasa .project-container div img
-        width: 95%
-        border-radius: 10px
-
     .kasa .project-container
 
         & > div:nth-child(n+6):nth-child(-n+8)
             flex: none
             margin-right: auto
             margin-left: auto
-
             & img
-                width: 95%
+                width: 90%
                 height: 90%
+@media (max-width: 600px)
+    .kasa .project-container div img
+        width: 95%
+        border-radius: 10px
 
 @media (max-width: 350px)
     .project-kasa-div1 p
