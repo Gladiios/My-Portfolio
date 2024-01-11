@@ -36,6 +36,9 @@ const ProjectDisplay = ({ project }) => {
     document.querySelector(".theme-language").classList.add("theme-in");
     document.querySelector("header").classList.add("header-in");
     document.querySelector(".timeline").classList.remove("slide-out");
+    document
+      .querySelector(".animated-bg-none")
+      .classList.remove("animated-bg-none");
   };
 
   if (!project) {

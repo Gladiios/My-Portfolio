@@ -39,13 +39,13 @@
                 {"logoName": "Animation", "path": "/assets/logo/responsive.svg"}
             ],
             "picture": [
-                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood", "alt":""},
-                {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodIntro", "textAfter": "ohMyFoodGoal", "alt":""},
-                {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodMobile", "textAfter":"ohMyFoodMobile2", "alt":""},
-                {"src": "/assets/ohmyfood/loader.webp", "text":"", "alt":""},
-                {"src": "/assets/ohmyfood/responsive-header.webp", "text":"", "alt":""},
-                {"src": "/assets/ohmyfood/responsive-card.webp", "text":"", "alt":""},
-                {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":"", "alt":""}
+                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood", "alt":"altOhmyfoodHeader"},
+                {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodIntro", "textAfter": "ohMyFoodGoal", "alt":"altOhmyfoodIntro"},
+                {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodMobile", "textAfter":"ohMyFoodMobile2", "alt":"altOhmyfoodMenu"},
+                {"src": "/assets/ohmyfood/loader.webp", "text":"", "alt":"altOhmyfoodLoader"},
+                {"src": "/assets/ohmyfood/responsive-header.webp", "text":"", "alt":"altOhmyfoodResponsive1"},
+                {"src": "/assets/ohmyfood/responsive-card.webp", "text":"", "alt":"altOhmyfoodResponsive2"},
+                {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":"", "alt":"altOhmyfoodResponsive3"}
             ],
             "background": "/assets/ohmyfood.webp",
             "banner": "/assets/ohmyfood/ohmyfood.webp",
@@ -67,13 +67,13 @@
                 {"logoName": "Node.js", "path": "/assets/logo/nodejs.svg"}
             ],
             "picture": [
-                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel", "alt":""},
-                {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal", "alt":""},
-                {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters", "alt":""},
-                {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin", "alt":""},
-                {"src": "/assets/sophiebluel/header-admin.webp", "text":"sophieBluelAdmin", "alt":""},
-                {"src": "/assets/sophiebluel/modal-1.webp", "text":"sophieBluelModal1", "alt":""},
-                {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2", "alt":""}
+                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel", "alt":"altSophieBluelHeader"},
+                {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal", "alt":"altSophieBluelProject"},
+                {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters", "alt":"altSophieBluelProjectFiltered"},
+                {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin", "alt":"altSophieBluelLogin"},
+                {"src": "/assets/sophiebluel/header-admin.webp", "text":"sophieBluelAdmin", "alt":"altSophieBluelAdmin"},
+                {"src": "/assets/sophiebluel/modal-1.webp", "text":"sophieBluelModal1", "alt":"altSophieBluelModal1"},
+                {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2", "alt":"altSophieBluelModal2"}
             ],
             "background": "/assets/sophiebluel.webp",
             "banner": "/assets/sophiebluel/sophiebluel.webp",
@@ -94,14 +94,14 @@
                 {"logoName": "Figma", "path": "/assets/logo/figma.svg"}
             ],
             "picture": [
-                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa", "alt":""},
-                {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1", "alt":""},
-                {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2", "alt":""},
-                {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel", "alt":""},
-                {"src": "/assets/kasa/info.webp", "text":"kasaInfo", "textAfter":"kasaInfoAfter", "alt":""},
-                {"src": "/assets/kasa/responsive-header.webp", "text":"", "alt":""},
-                {"src": "/assets/kasa/responsive-about-header.webp", "text":"", "alt":""},
-                {"src": "/assets/kasa/responsive-info.webp", "text":"", "alt":""}
+                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa", "alt":"altKasaHeader"},
+                {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1", "alt":"altKasaAboutHeader"},
+                {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2", "alt":"altKasaCollapse"},
+                {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel", "alt":"altKasaCarousel"},
+                {"src": "/assets/kasa/info.webp", "text":"kasaInfo", "textAfter":"kasaInfoAfter", "alt":"altKasaInfo"},
+                {"src": "/assets/kasa/responsive-header.webp", "text":"", "alt":"altKasaLandingMobile"},
+                {"src": "/assets/kasa/responsive-about-header.webp", "text":"", "alt":"altKasaAboutMobile"},
+                {"src": "/assets/kasa/responsive-info.webp", "text":"", "alt":"altKasaInfoMobile"}
             ],
             "background": "/assets/Kasa.webp",
             "banner": "/assets/kasa/kasa.webp",
@@ -123,16 +123,16 @@
                 {"logoName": "Lighthouse", "path": "/assets/logo/lighthouse.svg"}
             ],
             "picture": [
-                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci", "alt":""},
-                {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery", "alt":""},
-                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase", "alt":""},
-                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":"", "alt":""},
-                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp", "text":"ninaCarducciLighthouseOpti", "alt":""},
-                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp", "text":"", "alt":""},
-                {"src": "/assets/ninacarducci/keywords.webp", "text":"ninaCarducciKeywords", "alt":""},
-                {"src": "/assets/ninacarducci/meta-fb.webp", "text":"ninaCarducciMeta", "alt":""},
-                {"src": "/assets/ninacarducci/rich-snippet.webp", "text":"ninaCarducciSnippet", "alt":""},
-                {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave", "alt":""}
+                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci", "alt":"altNinaCarducciHeader"},
+                {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery", "alt":"altNinaCarducciGallery"},
+                {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase", "alt":"altNinaCarducciLighthousebaseDesktop"},
+                {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":"", "alt":"altNinaCarducciLighthousebaseMobile"},
+                {"src": "/assets/ninacarducci/lighthouse-desktop-opti.webp", "text":"ninaCarducciLighthouseOpti", "alt":"altNinaCarducciLighthouseDesktopOpti"},
+                {"src": "/assets/ninacarducci/lighthouse-mobile-opti.webp", "text":"", "alt":"altNinaCarducciLighthouseMobileOpti"},
+                {"src": "/assets/ninacarducci/keywords.webp", "text":"ninaCarducciKeywords", "alt":"altNinaCarducciKeywords"},
+                {"src": "/assets/ninacarducci/meta-fb.webp", "text":"ninaCarducciMeta", "alt":"altNinaCarducciMeta"},
+                {"src": "/assets/ninacarducci/rich-snippet.webp", "text":"ninaCarducciSnippet", "alt":"altNinaCarducciSnippet"},
+                {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave", "alt":"altNinaCarducciWave"}
             ],
             "background": "/assets/ninacarducci.webp",
             "banner": "/assets/banner/ninacarducci.jpg",
@@ -151,10 +151,10 @@
                 {"logoName": "Debugging", "path": "/assets/logo/debugging.svg"}
             ],
             "picture": [
-                {"src": "/assets/77events/header.webp", "text":"77 Events", "alt":""},
-                {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery", "alt":""},
-                {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm", "alt":""},
-                {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter", "alt":""}
+                {"src": "/assets/77events/header.webp", "text":"77 Events", "alt":"alt77eventsHeader"},
+                {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery", "alt":"alt77eventsGallery"},
+                {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm", "alt":"alt77eventsContact"},
+                {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter", "alt":"alt77eventsFooter"}
             ],
             "background": "/assets/77events.webp",
             "banner": "/assets/banner/77events.png",
@@ -177,12 +177,12 @@
                 {"logoName": "Swagger Creation", "path": "/assets/logo/swagger.svg"}
             ],
             "picture": [
-                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount", "alt":""},
-                {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin", "alt":""},
-                {"src": "/assets/argentbank/account.webp", "text":""},
-                {"src": "/assets/argentbank/form.webp", "text":"argentbankForm", "alt":""},
-                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore", "alt":""},
-                {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter", "alt":""}
+                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount", "alt":"altArgentbankHeader"},
+                {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin", "alt":"altArgentbankLogin"},
+                {"src": "/assets/argentbank/account.webp", "text":"", "alt":"altArgentbankAccount"},
+                {"src": "/assets/argentbank/form.webp", "text":"argentbankForm", "alt":"altArgentbankForm"},
+                {"src": "/assets/argentbank/store.webp", "text":"argentbankStore", "alt":"altArgentbankStore"},
+                {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter", "alt":"altArgentbankSwagger"}
             ],
             "background": "/assets/argentbank.webp",
             "banner": "/assets/banner/argentbank.png",

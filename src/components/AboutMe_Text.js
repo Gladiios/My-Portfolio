@@ -6,6 +6,7 @@ const AboutMe_Text = () => {
   return (
     <div>
       <span className="about-text">{t("aboutText")}</span>
+      <span className="about-text about-tools">{t("aboutTools")}</span>
     </div>
   );
 };

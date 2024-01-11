@@ -33,6 +33,9 @@ const Timeline = () => {
         el.classList.remove("frame_bottom_right");
       }
     });
+
+    document.querySelector(".animated-bg").classList.add("animated-bg-none");
+
     const leftOutAnimation = document.querySelectorAll(
       "header, .frame_line-top, .frame_line-left, .theme-language"
     );
