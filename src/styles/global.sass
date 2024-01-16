@@ -17,8 +17,16 @@
 @import "./components/project/ninacarducci"
 @import "./components/project/77events"
 @import "./components/project/argentbank"
-@import "./components/tooltip"
 @import "./components/tesselation"
+
+@font-face
+    font-family: 'Helvetica Neue'
+    src: local('Helvetica Neue Thin'), local('Helvetica-Neue-Thin'),
+    url: url('./fonts/HelveticaNeueCyr-Thin.woff2') format('woff2'),
+    url: url('./fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+    url: url('./fonts/HelveticaNeueCyr-Thin.ttf') format('truetype')
+    font-weight: 100
+    font-style: normal
 
 :root
     --padding: max(20px, 4vmin)
@@ -88,10 +96,17 @@ html, body
     height: 100%
     width: 100%
 
-h1,h2,h3,h4,h5,h6,p,ul,li,label
-    font-family: Plus Jakarta Sans
+h1,h2,h3,h4,h5,h6,p,ul,li,label,.tippy-box
+    font-family: 'Helvetica Neue', sans-serif
     margin: 0
     padding: 0
+
+.tippy-box
+    background-color: var(--logo-background-color) !important
+    color: var(--bg-2-color) !important
+
+.tippy-box[data-placement^='top'] > .tippy-arrow::before
+    border-top-color: var(--logo-background-color) !important
 
 ////////////////////////// Frame //////////////////////////////
 .frame

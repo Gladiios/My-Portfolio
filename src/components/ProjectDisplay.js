@@ -52,12 +52,18 @@ const ProjectDisplay = ({ project }) => {
           <img src={project.background} />
         </div>
         <div className="bg-2"></div>
-        <div className="return-arrow">
-          <FaArrowRight
-            className="return-arrow-size"
-            onClick={handleReturnArrow}
-            cursor={"pointer"}
-          />
+        <div
+          className="project-title"
+          style={{ backgroundColor: project.bgColor }}
+        >
+          <h3>{project.title}</h3>
+          <div className="return-arrow">
+            <FaArrowRight
+              className="return-arrow-size"
+              onClick={handleReturnArrow}
+              cursor={"pointer"}
+            />
+          </div>
         </div>
         <div className="project-container">
           {project.picture.map((image, index) => (

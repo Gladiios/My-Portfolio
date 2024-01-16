@@ -11,26 +11,10 @@ ul a
 .nav ul a
     color: var(--text-color)
 
-.nav-item
-    opacity: 0
-    animation: topToBottom .5s ease-in-out forwards
-
-.nav-item:nth-of-type(1)
-    animation-delay: .2s
-    animation-fill-mode: forwards
-
-.nav-item:nth-of-type(2)
-    animation-delay: .3s
-    animation-fill-mode: forwards
-
-.nav-item:nth-of-type(3)
-    animation-delay: .4s
-    animation-fill-mode: forwards
-
-.nav-item:nth-of-type(4)
-    animation-delay: .5s
-    animation-fill-mode: forwards
-
 .nav-item li.active
-    font-weight: 900
+    font-weight: 700
     margin-left: 5px
+
+.nav-item li.active:before
+    content: '•'
+    margin-right: 8px

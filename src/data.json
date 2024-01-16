@@ -2,6 +2,7 @@
     "dataProject": [
         {
             "title": "Booki",
+            "bgColor":"#0065FC",
             "skills": [
                 "HTML5","CSS3","Figma","Responsive"
             ],
@@ -12,7 +13,7 @@
                 {"logoName": "Responsive", "path": "/assets/logo/responsive.svg"}
             ],
             "picture": [
-                {"src": "/assets/booki/header.webp", "text":"Booki", "alt":"altBooki"},
+                {"src": "/assets/booki/header.webp", "alt":"altBooki"},
                 {"src": "/assets/booki/filtres.webp", "text":"bookiHeader", "alt":"altBookiHeader"},
                 {"src": "/assets/booki/hebergement.webp", "text":"bookiFilters", "alt":"altBookiFilters"},
                 {"src": "/assets/booki/activites.webp", "text":"bookiPopular", "textAfter": "bookiActivities", "alt":"altBookiPopular"},
@@ -22,7 +23,6 @@
                 {"src": "/assets/booki/responsive-activités.webp", "text":"", "alt":"altBookiResponsive4"}
             ],
             "background": "/assets/booki.webp",
-            "banner": "/assets/booki/booki.webp",
             "type": "School Project",
             "date": "2023",
             "id": "booki",
@@ -30,6 +30,7 @@
         },
         {
             "title": "OhMyFood",
+            "bgColor":"#9356DC",
             "skills": [
                 "HTML5","SASS","Animation","Responsive"
             ],
@@ -39,7 +40,7 @@
                 {"logoName": "Animation", "path": "/assets/logo/responsive.svg"}
             ],
             "picture": [
-                {"src": "/assets/ohmyfood/header.webp", "text":"OhMyFood", "alt":"altOhmyfoodHeader"},
+                {"src": "/assets/ohmyfood/header.webp", "alt":"altOhmyfoodHeader"},
                 {"src": "/assets/ohmyfood/restaurant-card.webp", "text":"ohMyFoodIntro", "textAfter": "ohMyFoodGoal", "alt":"altOhmyfoodIntro"},
                 {"src": "/assets/ohmyfood/menu-animation.webp", "text":"ohMyFoodMobile", "textAfter":"ohMyFoodMobile2", "alt":"altOhmyfoodMenu"},
                 {"src": "/assets/ohmyfood/loader.webp", "text":"", "alt":"altOhmyfoodLoader"},
@@ -48,7 +49,6 @@
                 {"src": "/assets/ohmyfood/responsive-menu-animation.webp", "text":"", "alt":"altOhmyfoodResponsive3"}
             ],
             "background": "/assets/ohmyfood.webp",
-            "banner": "/assets/ohmyfood/ohmyfood.webp",
             "type": "School Project",
             "date": "2023",
             "id": "ohmyfood",
@@ -57,6 +57,7 @@
         },
         {
             "title": "Sophie Bluel",
+            "bgColor": "#B1663C",
             "skills": [
                 "HTML5","SASS","Javascript","Node.js"
             ],
@@ -67,7 +68,7 @@
                 {"logoName": "Node.js", "path": "/assets/logo/nodejs.svg"}
             ],
             "picture": [
-                {"src": "/assets/sophiebluel/header.webp", "text":"Sophie Bluel", "alt":"altSophieBluelHeader"},
+                {"src": "/assets/sophiebluel/header.webp", "alt":"altSophieBluelHeader"},
                 {"src": "/assets/sophiebluel/project.webp", "text":"sophieBluelGoal", "alt":"altSophieBluelProject"},
                 {"src": "/assets/sophiebluel/project-filter.webp", "text":"sophieBluelFilters", "alt":"altSophieBluelProjectFiltered"},
                 {"src": "/assets/sophiebluel/login-form.webp", "text":"sophieBluelLogin", "alt":"altSophieBluelLogin"},
@@ -76,7 +77,6 @@
                 {"src": "/assets/sophiebluel/modal-2.webp", "text":"sophieBluelModal2", "alt":"altSophieBluelModal2"}
             ],
             "background": "/assets/sophiebluel.webp",
-            "banner": "/assets/sophiebluel/sophiebluel.webp",
             "type": "School Project",
             "date": "2023",
             "id": "sophie-bluel",
@@ -84,6 +84,7 @@
         },
         {
             "title": "Kasa",
+            "bgColor": "#FF6060",
             "skills": [
                 "React","Sass","Responsive","Figma"
             ],
@@ -94,7 +95,7 @@
                 {"logoName": "Figma", "path": "/assets/logo/figma.svg"}
             ],
             "picture": [
-                {"src": "/assets/kasa/landing-header.webp", "text":"Kasa", "alt":"altKasaHeader"},
+                {"src": "/assets/kasa/landing-header.webp", "alt":"altKasaHeader"},
                 {"src": "/assets/kasa/about-header.webp", "text":"kasaGoal1", "alt":"altKasaAboutHeader"},
                 {"src": "/assets/kasa/collapse.webp", "text":"kasaGoal2", "alt":"altKasaCollapse"},
                 {"src": "/assets/kasa/carrousel.webp", "text":"KasaCarousel", "alt":"altKasaCarousel"},
@@ -104,7 +105,6 @@
                 {"src": "/assets/kasa/responsive-info.webp", "text":"", "alt":"altKasaInfoMobile"}
             ],
             "background": "/assets/Kasa.webp",
-            "banner": "/assets/kasa/kasa.webp",
             "type": "School Project",
             "date": "2023",
             "id": "kasa",
@@ -112,6 +112,7 @@
         },
         {
             "title": "Nina Carducci",
+            "bgColor": "#ac6443",
             "skills": [
                 "Optimization","Seo","Wave","Accessibility","Lighthouse"
             ],
@@ -123,7 +124,7 @@
                 {"logoName": "Lighthouse", "path": "/assets/logo/lighthouse.svg"}
             ],
             "picture": [
-                {"src": "/assets/ninacarducci/header.webp", "text":"Nina Carducci", "alt":"altNinaCarducciHeader"},
+                {"src": "/assets/ninacarducci/header.webp", "alt":"altNinaCarducciHeader"},
                 {"src": "/assets/ninacarducci/gallery.webp", "text":"ninaCarducciGallery", "alt":"altNinaCarducciGallery"},
                 {"src": "/assets/ninacarducci/lighthouse-base-desktop.webp", "text":"ninaCarducciLighthouseBase", "alt":"altNinaCarducciLighthousebaseDesktop"},
                 {"src": "/assets/ninacarducci/lighthouse-base-mobile.webp", "text":"", "alt":"altNinaCarducciLighthousebaseMobile"},
@@ -135,7 +136,6 @@
                 {"src": "/assets/ninacarducci/resultat-wave.webp", "text":"ninaCarducciWave", "alt":"altNinaCarducciWave"}
             ],
             "background": "/assets/ninacarducci.webp",
-            "banner": "/assets/banner/ninacarducci.jpg",
             "type": "School Project",
             "date": "2023",
             "id": "nina-carducci",
@@ -144,6 +144,7 @@
         },
         {
             "title": "77 Events",
+            "bgColor": "#6316f1",
             "skills": [
                 "Debugging"
             ],
@@ -151,13 +152,12 @@
                 {"logoName": "Debugging", "path": "/assets/logo/debugging.svg"}
             ],
             "picture": [
-                {"src": "/assets/77events/header.webp", "text":"77 Events", "alt":"alt77eventsHeader"},
+                {"src": "/assets/77events/header.webp", "alt":"alt77eventsHeader"},
                 {"src": "/assets/77events/gallery.webp", "text":"77eventsGallery", "alt":"alt77eventsGallery"},
                 {"src": "/assets/77events/contact-form.webp", "text":"77eventsContactForm", "alt":"alt77eventsContact"},
                 {"src": "/assets/77events/footer.webp", "text":"77eventsFooter", "textAfter": "77eventsFooterAfter", "alt":"alt77eventsFooter"}
             ],
             "background": "/assets/77events.webp",
-            "banner": "/assets/banner/77events.png",
             "type": "School Project",
             "date": "2023",
             "id": "septseptevents",
@@ -165,6 +165,7 @@
         },
         {
             "title": "ArgentBank",
+            "bgColor":"#00c95493",
             "skills": [
                 "React","Redux","Sass","MongoDB","Swagger Creation","Responsive"
             ],
@@ -177,7 +178,7 @@
                 {"logoName": "Swagger Creation", "path": "/assets/logo/swagger.svg"}
             ],
             "picture": [
-                {"src": "/assets/argentbank/header.webp", "text":"ArgentBank", "textAfter":"argentbankAccount", "alt":"altArgentbankHeader"},
+                {"src": "/assets/argentbank/header.webp", "textAfter":"argentbankAccount", "alt":"altArgentbankHeader"},
                 {"src": "/assets/argentbank/login.webp", "text":"argentbankLogin", "alt":"altArgentbankLogin"},
                 {"src": "/assets/argentbank/account.webp", "text":"", "alt":"altArgentbankAccount"},
                 {"src": "/assets/argentbank/form.webp", "text":"argentbankForm", "alt":"altArgentbankForm"},
@@ -185,7 +186,6 @@
                 {"src": "/assets/argentbank/swagger.webp", "text":"argentbankStoreAfter", "alt":"altArgentbankSwagger"}
             ],
             "background": "/assets/argentbank.webp",
-            "banner": "/assets/banner/argentbank.png",
             "type": "School Project",
             "date": "2023",
             "id": "argentbank",

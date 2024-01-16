@@ -1,5 +1,8 @@
+import Tippy from "@tippyjs/react";
 import { useTheme } from "next-themes";
+import Image from "next/image";
 import React from "react";
+import "tippy.js/dist/tippy.css";
 
 const ProjectNode = ({ project, isSelected, onNodeClick, index }) => {
   const { theme } = useTheme();
@@ -25,17 +28,16 @@ const ProjectNode = ({ project, isSelected, onNodeClick, index }) => {
       )}
       <div className="project-node-skills">
         {project.logoSkills.map((logo, index) => (
-          <div className="project-skill-container" key={index}>
-            <div className="tooltip">
-              <img
-                className="project-skill"
-                src={logo.path}
-                alt={project.logoSkills}
-                style={logoStyle}
-              />
-              <span className="tooltiptext">{logo.logoName}</span>
-            </div>
-          </div>
+          <Tippy content={logo.logoName} key={index}>
+            <Image
+              className="project-skill"
+              src={logo.path}
+              alt={project.logoSkills}
+              width={30}
+              height={30}
+              style={logoStyle}
+            />
+          </Tippy>
         ))}
       </div>
     </div>

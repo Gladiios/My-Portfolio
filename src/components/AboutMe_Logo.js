@@ -1,6 +1,8 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import React from "react";
+import Tippy from "@tippyjs/react";
+import "tippy.js/dist/tippy.css";
 
 const AboutMe_Logo = () => {
   const { theme } = useTheme();
@@ -8,7 +10,7 @@ const AboutMe_Logo = () => {
   const logoStyle = isDarkTheme ? { filter: "invert(100%)" } : {};
   return (
     <div className="logo-div">
-      <div className="tooltip">
+      <Tippy content="CSS">
         <Image
           src="/assets/logo/css.svg"
           alt="logo css"
@@ -16,9 +18,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">CSS3</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Figma">
         <Image
           src="/assets/logo/figma.svg"
           alt="logo figma"
@@ -26,9 +27,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Figma</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Git">
         <Image
           src="/assets/logo/git.svg"
           alt="logo git"
@@ -36,9 +36,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Git</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="HTML">
         <Image
           src="/assets/logo/html.svg"
           alt="logo html"
@@ -46,9 +45,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">HTML5</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Javascript">
         <Image
           src="/assets/logo/javascript.svg"
           alt="logo javascript"
@@ -56,9 +54,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Javascript</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Next.js">
         <Image
           src="/assets/logo/next.svg"
           alt="logo nextjs"
@@ -66,9 +63,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Next.js</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="React">
         <Image
           src="/assets/logo/react.svg"
           alt="logo react"
@@ -76,9 +72,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">React</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Redux">
         <Image
           src="/assets/logo/redux.svg"
           alt="logo redux"
@@ -86,9 +81,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Redux</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Sass">
         <Image
           src="/assets/logo/sass.svg"
           alt="logo sass"
@@ -96,9 +90,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Sass</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="Node.js">
         <Image
           src="/assets/logo/nodejs.svg"
           alt="logo sass"
@@ -106,9 +99,8 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">Node.js</span>
-      </div>
-      <div className="tooltip">
+      </Tippy>
+      <Tippy content="MongoDb">
         <Image
           src="/assets/logo/mongodb.svg"
           alt="logo sass"
@@ -116,8 +108,7 @@ const AboutMe_Logo = () => {
           height={30}
           style={logoStyle}
         ></Image>
-        <span className="tooltiptext">MongoDB</span>
-      </div>
+      </Tippy>
     </div>
   );
 };
