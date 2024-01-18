@@ -3,7 +3,6 @@ import "../styles/global.sass";
 import Frame from "../components/Frame";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
-import Theme from "../components/Theme";
 import React from "react";
 import Timeline from "../components/Timeline";
 import ProjectDisplay from "../components/ProjectDisplay";

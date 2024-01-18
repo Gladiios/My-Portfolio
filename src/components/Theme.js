@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import "../styles/global.sass";
-import { useTranslation } from "next-i18next";
 import { FiMoon } from "react-icons/fi";
 import { BsSun } from "react-icons/bs";
 

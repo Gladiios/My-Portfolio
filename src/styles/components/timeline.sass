@@ -129,6 +129,30 @@
     .timeline
         top: calc(var(--padding) * 7)
 
+@media (max-width: 545px)  and (max-height: 740px)
+    .timeline
+        top: calc(var(--padding) * 6.5)
+        right: calc(var(--padding) * 1.5)
+    .bottom-year
+        margin-bottom: 4rem
+    .project-node
+        margin-bottom: 60px
+
+        &-text
+            font-size: 18px
+
+        &-circle
+            width: 16px
+            height: 16px
+
+    .project-node-skills
+        right: calc(100% + 10px)
+
+        & img
+            width: 20px
+            height: 20px
+            margin: 5px
+
 @media (max-width: 450px)
     .timeline
         top: calc(var(--padding) * 10)
@@ -156,3 +180,7 @@
 @media (max-width: 450px) and (max-height: 780px)
     .timeline
         top: calc(var(--padding) * 8.5)
+
+@media (max-width: 450px) and (max-height: 740px)
+    .timeline
+        top: calc(var(--padding) * 7.3)

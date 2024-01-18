@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ProjectNode from "./ProjectNode";
 import data from "../data.json";
 import ProjectDisplay from "./ProjectDisplay";
-import Image from "next/image";
 
 const { dataProject } = data;
 const Timeline = () => {

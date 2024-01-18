@@ -3,7 +3,6 @@ import Frame from "../components/Frame";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import React from "react";
-import Theme from "../components/Theme";
 import AboutMe from "../components/AboutMe";
 import Providers from "../app/Providers";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
