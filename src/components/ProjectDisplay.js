@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslation } from "next-i18next";
 import ProjectImage from "./ProjectImage";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaGithub } from "react-icons/fa";
+import Image from "next/image";
+import Tippy from "@tippyjs/react";
 
 const ProjectDisplay = ({ project }) => {
   const { t } = useTranslation("common");
@@ -56,7 +58,14 @@ const ProjectDisplay = ({ project }) => {
           className="project-title"
           style={{ backgroundColor: project.bgColor }}
         >
-          <h3>{project.title}</h3>
+          <div className="logo-title-div">
+            <Tippy content="Github repository">
+              <a href={project.github} target="_blank">
+                <FaGithub />
+              </a>
+            </Tippy>
+            <h3>{project.title}</h3>
+          </div>
           <div className="return-arrow">
             <FaArrowRight
               className="return-arrow-size"

@@ -5,10 +5,10 @@ export default function RootLayout({ children }) {
   return (
     <div>
       <Head>
-        <title>Erwan Marie - Portfolio</title>
+        <title>Erwan Marie - Web Developer</title>
         <meta
           name="description"
-          content="Front-end developer portfolio, discover my projects."
+          content="Front-end developer portfolio, discover my projects here."
         />
       </Head>
       <Providers>{children}</Providers>

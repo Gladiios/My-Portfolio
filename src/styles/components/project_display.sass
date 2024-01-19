@@ -3,8 +3,8 @@
     justify-content: center
     width: 100%
     font-size: 3rem !important
-    padding: 2rem 0 2rem 0
-    margin-bottom: 2rem
+    padding: 1rem 0 1rem 0
+    margin-bottom: 1rem
     background-color: #6316f1
 
 .display-node
@@ -27,6 +27,17 @@
         height: 100vh
         object-fit: cover
         filter: blur(30px) brightness(60%)
+
+.logo-title-div
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+    & a
+        display: flex
+        text-decoration: none
+        color: var(--theme-checkbox-background)
+        & svg
+            width: 30px
 
 .content-container
     width: 100%
