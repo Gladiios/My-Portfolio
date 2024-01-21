@@ -3,7 +3,7 @@ import Providers from "./Providers";
 
 export default function RootLayout({ children }) {
   return (
-    <div>
+    <Providers>
       <Head>
         <title>Erwan Marie - Web Developer</title>
         <meta
@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
           content="Front-end developer portfolio, discover my projects here."
         />
       </Head>
-      <Providers>{children}</Providers>
-    </div>
+      {children}
+    </Providers>
   );
 }
