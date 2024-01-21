@@ -8,10 +8,18 @@ import Providers from "../app/Providers";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import ThemeLanguage from "@/components/ThemeLanguage";
 import AnimatedBackground from "@/components/AnimatedBackground";
+import Head from "next/head";
 
 export default function About() {
   return (
     <Providers>
+      <Head>
+        <title>Erwan Marie - Web Developer</title>
+        <meta
+          name="description"
+          content="Front-end developer portfolio, discover my projects here."
+        />
+      </Head>
       <div id="page" className="about-page">
         <AnimatedBackground />
         <ThemeLanguage />
