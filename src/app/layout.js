@@ -15,7 +15,8 @@ export default function RootLayout({ children }) {
             "address": {
             "@type": "PostalAddress",
             "addressLocality": "Caen",
-            "postalCode": "14000"
+            "postalCode": "14000",
+            "url": "https://www.erwan-marie.dev/"
           `}
         </script>
       </Head>
