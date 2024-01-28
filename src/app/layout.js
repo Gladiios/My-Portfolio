@@ -7,17 +7,18 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Erwan Marie - Web Developer</title>
         <script type="application/ld+json">
-          {`
+          {JSON.stringify({
             "@context": "http://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Erwan Marie - Web Developer",
-            "description": "Je suis un développeur web spécialisé Front-End,avec une expertise en React.Découvrez mon portfolio et les différents projets sur lesquels j'ai travaillé.",
-            "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Caen",
-            "postalCode": "14000",
-            "url": "https://www.erwan-marie.dev/"
-          `}
+            name: "Erwan Marie - Web Developer",
+            description:
+              "Je suis un développeur web spécialisé Front-End, avec une expertise en React. Découvrez mon portfolio et les différents projets sur lesquels j'ai travaillé.",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Caen",
+              postalCode: "14000",
+            },
+            url: "https://www.erwan-marie.dev/",
+          })}
         </script>
       </Head>
       <Providers>{children}</Providers>
