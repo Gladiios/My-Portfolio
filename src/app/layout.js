@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Providers from "./Providers";
-import Script from "next/script";
 
 export default function RootLayout({ children }) {
   const jsonLdData = {
@@ -19,7 +18,7 @@ export default function RootLayout({ children }) {
     <div>
       <Head>
         <title>Erwan Marie - Web Developer</title>
-        <Script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
         />
