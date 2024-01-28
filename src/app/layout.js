@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
     "@context": "http://schema.org",
     name: "Erwan Marie - Web Developer",
     description:
-      "Je suis un développeur web spécialisé Front-End, avec une expertise en React. Découvrez mon portfolio et les différents projets sur lesquels j'ai travaillé.",
+      "Je suis un développeur web spécialisé Front-End avec une expertise en React. Découvrez mon portfolio et les différents projets sur lesquels j'ai travaillé.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Caen",
